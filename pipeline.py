@@ -35,8 +35,15 @@ def run_pipeline():
 
 
     # dynamically determine path
-    base_path = os.path.dirname(os.path.abspath(__file__))  # os.path.abspath(__file__): absoluate path of __file__ (variable with current path), os.path.dirname(): path to parent folder
-    input_path = os.path.join(base_path, config['data']['input_path'])
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    # !!! this was added after my bachelor thesis for easier usage
+    # relative input_path if not specified in config.yaml
+    input_path = config['data']['input_path']
+    if not input_path or input_path.strip() == "":
+        input_path = os.path.join(base_path, "datasets")
+    else:
+        input_path = os.path.join(base_path, input_path)
+    # !!!
 
 
     # load data
@@ -44,6 +51,16 @@ def run_pipeline():
     loader = DataLoader(config['data']['files_to_look_for'], input_path, config['data']['exclude_files'], config['data']['exclude_folders'])
     code_snippets = loader.load_code_files(concat=True)
     print(f"data_loader {time.time() - load_data_time:.2f} Seconds")
+
+
+    # !!! this was added after my bachelor thesis for easier usage
+    # Limit number of files to cluster if configured
+    max_files = config['data']['max_files']
+    if max_files and isinstance(max_files, int) and max_files > 0:
+        code_snippets = code_snippets[:max_files]
+        loader.filenames = loader.filenames[:max_files]
+        loader.parent_dirs = loader.parent_dirs[:max_files]
+    # !!!
 
 
     # score bins

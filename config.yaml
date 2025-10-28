@@ -1,3 +1,23 @@
+
+data:
+  files_to_look_for: ".java"            # choose files which should be clustered
+  exclude_files: ["Miniprojekt1.java"]  # exclude files which should not be clustered
+  exclude_folders: ["___", "___"]       # exclude folders with solutions which should not be clustered
+  max_files: 100                        # maximum number of files to cluster; set to 0 or remove to cluster all files
+  input_path: ""                        # input path of the student programming solutions
+  output_path: "z_Output"               # output path of various pipeline results for the student programming solutions
+  score_bins:                           # define clustering layers to prevent similar solutions with different evaluation points to be in the same cluster
+  - [100, 100]
+  - [90, 99]
+  - [75, 90]
+  - [60, 74]
+  - [50, 59]
+  - [0, 49]
+  # score_bins:
+  # - [0, 100]
+
+  # ------------------------------------------------------------------------------- #
+
 embedding:
   model: "microsoft/codebert-base"  # embedding model for code snippets
 
@@ -58,21 +78,3 @@ clustering:
     n_init: 10                # number of time the k-means algorithm will be run with different centroid seeds; default: 10
     max_iter: 300             # maximum number of iterations for a single run; default: 300
     random_state: 42          # ensures reproducible clustering results; default: None
-
-# ------------------------------------------------------------------------------- #
-
-data:
-  files_to_look_for: ".java"            # choose files which should be clustered
-  exclude_files: ["Miniprojekt1.java"]  # exclude files which should not be clustered
-  exclude_folders: ["100____ Punkte"]       # exclude folders with solutions which should not be clustered
-  input_path: "C:/Users/grego/Desktop/Loesungen/000TestingBig000"  # input path of the student programming solutions
-  output_path: "z_Output"               # output path of various pipeline results for the student programming solutions
-  score_bins:                           # define clustering layers to prevent similar solution with different evaluation points to be in the same cluster
-  - [100, 100]
-  - [90, 99]
-  - [75, 90]
-  - [60, 74]
-  - [50, 59]
-  - [0, 49]
-  # score_bins:
-  # - [0, 100]

@@ -1,8 +1,13 @@
 to install requirements:
 - install python
 - install python extensions in VSC (Python (optional: Pylance, isort, Python Debugger))
+
 - open terminal and type:
 python -m venv venv                                         # to provide project independency create a virtual enviornment
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  # allow activation
 venv\Scripts\activate                                       # to activate the virtual enviornment on windows; "source venv/bin/activate" on Mac/Linux
 pip install -r requirements.txt                             # to install the requirements
+
+- go to the section "data" in the file config.yaml
+- there you can modify the clustering options, like which file type should be clustered or how many
+- the default settings will cluster 200 java-files for demonstration purposes
