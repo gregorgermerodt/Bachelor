@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 23:
+	The local variable Ergebnis may not have been initialized
+Compiler error in Matrix.java, line 31:
+	The local variable sv may not have been initialized
+Compiler error in Matrix.java, line 33:
+	The local variable sv may not have been initialized
+Compiler error in Matrix.java, line 55:
+	The local variable trans may not have been initialized
+

@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 28:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Matrix.java, line 28:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Measurement.java, line 21:
+	Syntax error on token "}", delete this token
+Compiler error in Measurement.java, line 30:
+	currentValue cannot be resolved to a variable
+Compiler error in Measurement.java, line 31:
+	currentValue cannot be resolved to a variable
+

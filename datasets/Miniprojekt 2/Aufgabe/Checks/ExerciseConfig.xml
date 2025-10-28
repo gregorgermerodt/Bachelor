@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+  <general>
+    <title>Miniprojekt 2: Messwerte und Matrizen</title>
+    <category>Programmierung WS 15/16 - Miniprojekte</category>
+    <view-type>JAVA</view-type>
+    <is-active>true</is-active>
+    <is-public>false</is-public>
+    <level-of-difficulty>1</level-of-difficulty>
+    <level-of-adaptive-difficulty>0</level-of-adaptive-difficulty>
+    <exercise-tag-list>Programmierung;</exercise-tag-list>
+    <internal-description />
+    <external-description>Aufgabenbeschreibung siehe PDF-Datei.</external-description>
+    <penalty-percent>0</penalty-percent>
+    <minimum-correct-result>100</minimum-correct-result>
+    <evaluation-rule>0.1 * #{c9026777} + 0.9 * #{c9026781}</evaluation-rule>
+  </general>
+  <checker-configurations>
+    <checker-configuration>
+      <instance-name>Statischer Test</instance-name>
+      <result-name>Statischer Test (Ergebnis)</result-name>
+      <is-visible>true</is-visible>
+      <is-visible-detail>true</is-visible-detail>
+      <is-active>true</is-active>
+      <checker-id>de.uni_due.s3.jack2.backend.checkers.GreQLJavaChecker</checker-id>
+      <variable-name>c9026777</variable-name>
+      <checker-configuration-tuples>
+        <checker-configuration-tuple>
+          <name>Library files</name>
+          <type>resourceList</type>
+          <content />
+        </checker-configuration-tuple>
+        <checker-configuration-tuple>
+          <name>Rule file</name>
+          <type>resource</type>
+          <content>miniprojekt2_rules.xml</content>
+        </checker-configuration-tuple>
+        <checker-configuration-tuple>
+          <name>Source files</name>
+          <type>resourceList</type>
+          <content>Matrix.java;Measurement.java;</content>
+        </checker-configuration-tuple>
+      </checker-configuration-tuples>
+    </checker-configuration>
+    <checker-configuration>
+      <instance-name>Dynamischer Test</instance-name>
+      <result-name>Dynamischer Test (Ergebnis)</result-name>
+      <is-visible>true</is-visible>
+      <is-visible-detail>true</is-visible-detail>
+      <is-active>true</is-active>
+      <checker-id>de.uni_due.s3.jack2.backend.checkers.TracingChecker</checker-id>
+      <variable-name>c9026781</variable-name>
+      <checker-configuration-tuples>
+        <checker-configuration-tuple>
+          <name>Classes to trace</name>
+          <type>string</type>
+          <content />
+        </checker-configuration-tuple>
+        <checker-configuration-tuple>
+          <name>Sample traces</name>
+          <type>resourceList</type>
+          <content />
+        </checker-configuration-tuple>
+        <checker-configuration-tuple>
+          <name>Source files</name>
+          <type>resourceList</type>
+          <content>Matrix.java;Measurement.java;</content>
+        </checker-configuration-tuple>
+        <checker-configuration-tuple>
+          <name>Test driver class</name>
+          <type>resource</type>
+          <content>Miniprojekt2Tests.java</content>
+        </checker-configuration-tuple>
+      </checker-configuration-tuples>
+    </checker-configuration>
+  </checker-configurations>
+  <exercise-resources>
+    <exercise-resource>
+      <file-name>Matrix.java</file-name>
+      <type>WORKING_SHEET</type>
+    </exercise-resource>
+    <exercise-resource>
+      <file-name>Measurement.java</file-name>
+      <type>WORKING_SHEET</type>
+    </exercise-resource>
+    <exercise-resource>
+      <file-name>Miniprojekt-2.pdf</file-name>
+      <type>INSTRUCTION_SHEET</type>
+    </exercise-resource>
+    <exercise-resource>
+      <file-name>miniprojekt2_rules.xml</file-name>
+      <type>HIDDEN_SHEET</type>
+    </exercise-resource>
+    <exercise-resource>
+      <file-name>Miniprojekt2Tests.java</file-name>
+      <type>HIDDEN_SHEET</type>
+    </exercise-resource>
+  </exercise-resources>
+</exercise>

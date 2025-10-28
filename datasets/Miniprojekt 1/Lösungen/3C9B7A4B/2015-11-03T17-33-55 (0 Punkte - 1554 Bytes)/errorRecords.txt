@@ -1,0 +1,26 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 15:
+	Point cannot be resolved to a type
+Compiler error in Circle.java, line 26:
+	Point cannot be resolved to a type
+Compiler error in Circle.java, line 27:
+	Point cannot be resolved to a type
+Compiler error in Circle.java, line 30:
+	Point cannot be resolved to a type
+Compiler error in Circle.java, line 48:
+	Point cannot be resolved to a type
+Compiler error in Circle.java, line 50:
+	Syntax error on tokens, delete these tokens
+Compiler error in Circle.java, line 53:
+	Point cannot be resolved to a type
+Compiler error in Circle.java, line 53:
+	Point cannot be resolved to a type
+Compiler error in Circle.java, line 9:
+	Point cannot be resolved to a type
+Compiler error in Point.java, line 12:
+	Syntax error on token "public", delete this token
+

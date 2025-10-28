@@ -1,0 +1,64 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 100:
+	Syntax error on token "}", delete this token
+Compiler error in Circle.java, line 103:
+	Duplicate method getDiameter() in type Circle
+Compiler error in Circle.java, line 108:
+	Duplicate method getCircumference() in type Circle
+Compiler error in Circle.java, line 113:
+	Duplicate method getArea() in type Circle
+Compiler error in Circle.java, line 117:
+	Duplicate method containsPoint(Point) in type Circle
+Compiler error in Circle.java, line 118:
+	Boolean cannot be resolved to a variable
+Compiler error in Circle.java, line 118:
+	Syntax error on token "new", delete this token
+Compiler error in Circle.java, line 118:
+	zw cannot be resolved to a variable
+Compiler error in Circle.java, line 123:
+	Duplicate method fromPoints(Point, Point) in type Circle
+Compiler error in Circle.java, line 127:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Circle.java, line 127:
+	circle cannot be resolved to a type
+Compiler error in Circle.java, line 127:
+	nk cannot be resolved to a variable
+Compiler error in Circle.java, line 27:
+	Duplicate method getLocation() in type Circle
+Compiler error in Circle.java, line 31:
+	Duplicate method setLocation(Point) in type Circle
+Compiler error in Circle.java, line 36:
+	Duplicate method getDiameter() in type Circle
+Compiler error in Circle.java, line 41:
+	Duplicate method getCircumference() in type Circle
+Compiler error in Circle.java, line 46:
+	Duplicate method getArea() in type Circle
+Compiler error in Circle.java, line 50:
+	Duplicate method containsPoint(Point) in type Circle
+Compiler error in Circle.java, line 54:
+	Duplicate method fromPoints(Point, Point) in type Circle
+Compiler error in Circle.java, line 62:
+	Syntax error on token "}", delete this token
+Compiler error in Circle.java, line 63:
+	Syntax error on token "}", delete this token
+Compiler error in Circle.java, line 65:
+	Duplicate method getLocation() in type Circle
+Compiler error in Circle.java, line 69:
+	Duplicate method setLocation(Point) in type Circle
+Compiler error in Circle.java, line 70:
+	locations cannot be resolved to a variable
+Compiler error in Circle.java, line 74:
+	Duplicate method getDiameter() in type Circle
+Compiler error in Circle.java, line 79:
+	Duplicate method getCircumference() in type Circle
+Compiler error in Circle.java, line 84:
+	Duplicate method getArea() in type Circle
+Compiler error in Circle.java, line 88:
+	Duplicate method containsPoint(Point) in type Circle
+Compiler error in Circle.java, line 92:
+	Duplicate method fromPoints(Point, Point) in type Circle
+

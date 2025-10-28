@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 79 Punkte
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #1::
+	Nach dem Aufruf von scalarMultiplication(3) auf eine Matrix <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br /> sollte die Matrix wie folgt aussehen: <br />2x3:<br />[6, 9, 6]<br />[-6, -9, -12]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x3:<br />[3, 3, 3]<br />[3, 3, 3]<br />
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #3::
+	Nach dem Aufruf von scalarMultiplication(-1) auf eine Matrix <br />3x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br /> sollte die Matrix wie folgt aussehen: <br />3x3:<br />[-1, -2, -3]<br />[-4, -5, -6]<br />[-7, -8, -9]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />3x3:<br />[-1, -1, -1]<br />[-1, -1, -1]<br />[-1, -1, -1]<br />
+Fehler in Miniprojekt 2 - Measurement.addValue() #2::
+	Nach dem Aufruf von addValue(14) auf ein Measurement-Objekt mit den Messwerten [5, 9] sollte data folgendermaßen aussehen: [5, 9, 14]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [0, 9, 14]
+Fehler in Miniprojekt 2 - Measurement.addValues() #1::
+	Nach dem Aufruf von addValues(new int[] { 9, 1 }) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [9, 1]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [0, 1]
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [0, 2, 0, 0, 4]
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

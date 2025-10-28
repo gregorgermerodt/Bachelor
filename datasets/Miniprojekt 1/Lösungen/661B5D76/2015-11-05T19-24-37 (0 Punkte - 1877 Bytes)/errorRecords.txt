@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 63:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 36:
+	Syntax error on token ",", invalid AssignmentOperator
+Compiler error in Point.java, line 36:
+	ythis cannot be resolved or is not a field
+Compiler error in Point.java, line 36:
+	pow cannot be resolved or is not a field
+

@@ -1,0 +1,44 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 13:
+	values cannot be resolved to a type
+Compiler error in Matrix.java, line 13:
+	Syntax error on token "length", class expected
+Compiler error in Matrix.java, line 13:
+	The operator < is undefined for the argument type(s) int, Class<values[]>
+Compiler error in Matrix.java, line 22:
+	The operator < is undefined for the argument type(s) int, Class<values[]>
+Compiler error in Matrix.java, line 22:
+	values cannot be resolved to a type
+Compiler error in Matrix.java, line 22:
+	Syntax error on token "length", class expected
+Compiler error in Matrix.java, line 30:
+	data cannot be resolved to a variable
+Compiler error in Matrix.java, line 31:
+	data cannot be resolved to a variable
+Compiler error in Matrix.java, line 38:
+	values cannot be resolved to a type
+Compiler error in Matrix.java, line 38:
+	m cannot be resolved to a type
+Compiler error in Matrix.java, line 38:
+	Syntax error on token "length", class expected
+Compiler error in Matrix.java, line 38:
+	Incompatible operand types java.lang.Class<values[]> and java.lang.Class<m.values[]>
+Compiler error in Matrix.java, line 38:
+	Syntax error on token "length", class expected
+Compiler error in Matrix.java, line 40:
+	Syntax error on token "length", class expected
+Compiler error in Matrix.java, line 40:
+	The operator < is undefined for the argument type(s) int, Class<values[]>
+Compiler error in Matrix.java, line 40:
+	values cannot be resolved to a type
+Compiler error in Matrix.java, line 54:
+	values cannot be resolved to a type
+Compiler error in Matrix.java, line 54:
+	Syntax error on token "length", class expected
+Compiler error in Matrix.java, line 54:
+	The operator < is undefined for the argument type(s) int, Class<values[]>
+

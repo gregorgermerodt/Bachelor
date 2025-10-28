@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 88 Punkte
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1: java.lang.ArrayIndexOutOfBoundsException: 1:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 38 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2::
+	Für ein Measurement-Objekt mit den Messwerten [I@bb114ee sollte getValuesAboveThreshold(50) die folgenden Werte zurückgeben: []. Deine Methode gibt [0] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3: java.util.IllegalFormatConversionException: d != java.lang.String:
+	
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

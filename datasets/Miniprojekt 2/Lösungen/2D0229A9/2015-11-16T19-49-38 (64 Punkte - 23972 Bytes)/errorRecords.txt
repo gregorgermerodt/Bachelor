@@ -1,0 +1,24 @@
+DYNAMISCHER TEST (ERGEBNIS): 60 Punkte
+Fehler in Miniprojekt 2 - Measurement-Konstruktor::
+	Der Aufruf des Measurement-Konstruktors sollte Measurement.data initialisieren, tatsächlich ist Measurement.data jedoch null
+Fehler in Miniprojekt 2 - Measurement.addValue() #1::
+	Nach dem Aufruf von addValue(10) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [10]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: []
+Fehler in Miniprojekt 2 - Measurement.addValue() #2::
+	Nach dem Aufruf von addValue(14) auf ein Measurement-Objekt mit den Messwerten [5, 9] sollte data folgendermaßen aussehen: [5, 9, 14]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [5, 9]
+Fehler in Miniprojekt 2 - Measurement.addValues() #1::
+	Nach dem Aufruf von addValues(new int[] { 9, 1 }) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [9, 1]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: []
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1, 8]
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #1::
+	Für ein Measurement-Objekt mit den Messwerten [40, -5, 3, 18] sollte getMinimumValue() -5 zurückgeben. Deine Implementierung gibt -1 zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #2::
+	Für ein Measurement-Objekt mit den Messwerten [-2, -2, 3, 1] sollte getMinimumValue() -2 zurückgeben. Deine Implementierung gibt -1 zurück.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 47, 18]. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2::
+	Für ein Measurement-Objekt mit den Messwerten [I@1d672476 sollte getValuesAboveThreshold(50) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3::
+	Für ein Measurement-Objekt ohne Messwerte sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

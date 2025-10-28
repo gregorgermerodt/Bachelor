@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 1 - Point.getY()::
+	Die Methode Point.getY() liefert einen fehlerhaften Wert zur�ck (-1,000000)<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.getY().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.setX()::
+	Die Methode Point.setX() setzt das Feld Point.y nicht korrekt. Nach dem Aufruf von Point.setX(4366,958000) hat Point.y den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.setX().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

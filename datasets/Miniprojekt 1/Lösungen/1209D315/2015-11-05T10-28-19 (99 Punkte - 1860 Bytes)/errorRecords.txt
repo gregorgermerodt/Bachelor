@@ -1,0 +1,6 @@
+DYNAMISCHER TEST (ERGEBNIS): 100 Punkte
+
+STATISCHER TEST (ERGEBNIS): 94 Punkte
+Signaturcheck:
+	Die Methode "public double getDistance(Point p)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+

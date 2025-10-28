@@ -1,0 +1,44 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 12:
+	The method copyOldArrayInLargerArray(int[], int) is undefined for the type Measurement
+Compiler error in Measurement.java, line 16:
+	The method copyOldArrayInLargerArray(int[], int[]) is undefined for the type Measurement
+Compiler error in Measurement.java, line 36:
+	The method copyOldArrayInLargerArray(int[], Integer) is undefined for the type Measurement
+Compiler error in Measurement.java, line 42:
+	Syntax error on token ",", ; expected
+Compiler error in Measurement.java, line 42:
+	Syntax error on token ")", ; expected
+Compiler error in Measurement.java, line 42:
+	Illegal modifier for parameter copyOldArrayInLargerArray; only final is permitted
+Compiler error in Measurement.java, line 42:
+	Syntax error on token "(", ; expected
+Compiler error in Measurement.java, line 43:
+	Duplicate local variable result
+Compiler error in Measurement.java, line 55:
+	Illegal modifier for parameter copyOldArrayInLargerArray; only final is permitted
+Compiler error in Measurement.java, line 55:
+	Syntax error on token "(", ; expected
+Compiler error in Measurement.java, line 55:
+	Duplicate local variable copyOldArrayInLargerArray
+Compiler error in Measurement.java, line 55:
+	Syntax error on token ")", ; expected
+Compiler error in Measurement.java, line 55:
+	Duplicate local variable data
+Compiler error in Measurement.java, line 55:
+	Syntax error on token ",", ; expected
+Compiler error in Measurement.java, line 56:
+	Duplicate local variable result
+Compiler error in Measurement.java, line 71:
+	Duplicate local variable data
+Compiler error in Measurement.java, line 71:
+	Syntax error on token ")", ; expected
+Compiler error in Measurement.java, line 71:
+	void is an invalid type for the variable setData
+Compiler error in Measurement.java, line 71:
+	Syntax error on token "(", ; expected
+

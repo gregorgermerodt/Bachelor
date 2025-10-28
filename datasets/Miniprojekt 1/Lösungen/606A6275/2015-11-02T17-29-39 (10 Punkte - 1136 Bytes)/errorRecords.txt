@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 65 Punkte
+Signaturcheck:
+	Die Methode "public double getDistance(Point p)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public void setY(double newY)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public double getY()" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public void setX(double newX)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public double getX()" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Der Konstruktor "public Point(double initX, double initY)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+

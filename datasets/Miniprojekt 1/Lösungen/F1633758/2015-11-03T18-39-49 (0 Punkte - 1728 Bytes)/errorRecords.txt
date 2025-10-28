@@ -1,0 +1,38 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 34:
+	Duplicate method getDiameter() in type Circle
+Compiler error in Circle.java, line 44:
+	Duplicate method getArea() in type Circle
+Compiler error in Circle.java, line 59:
+	The left-hand side of an assignment must be a variable
+Compiler error in Circle.java, line 61:
+	Duplicate method getDiameter() in type Circle
+Compiler error in Circle.java, line 61:
+	This method requires a body instead of a semicolon
+Compiler error in Circle.java, line 61:
+	The method setCircumference() is undefined for the type Circle
+Compiler error in Circle.java, line 61:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Circle.java, line 61:
+	Syntax error, insert "}" to complete MethodBody
+Compiler error in Circle.java, line 61:
+	Duplicate field Circle.PI
+Compiler error in Circle.java, line 61:
+	Syntax error on token "*", ; expected
+Compiler error in Circle.java, line 61:
+	Return type for the method is missing
+Compiler error in Circle.java, line 63:
+	Return type for the method is missing
+Compiler error in Circle.java, line 63:
+	Duplicate method getArea() in type Circle
+Compiler error in Circle.java, line 63:
+	Syntax error on token "=", ; expected
+Compiler error in Circle.java, line 63:
+	Duplicate field Circle.PI
+Compiler error in Circle.java, line 63:
+	Syntax error on token "*", = expected
+

@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 95 Punkte
+Fehler in Miniprojekt 1 - Circle.getLocation()::
+	Die Methode Circle.getLocation() liefert einen fehlerhaften Wert zur�ck (Point@3d99ea49)<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getLocation().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+Fehlerhafte Codestruktur:
+	Hinweis (ohne Punktabzug): Du verwendest Variablennamen, die mit einem Großbuchstaben beginnen. Das ist möglich, aber es entspricht nicht dem üblichen Programmierstil für Java.
+

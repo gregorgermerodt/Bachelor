@@ -1,0 +1,34 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 24:
+	er cannot be resolved to a variable
+Compiler error in Measurement.java, line 24:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Measurement.java, line 26:
+	er cannot be resolved to a variable
+Compiler error in Measurement.java, line 26:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 29:
+	er cannot be resolved to a variable
+Compiler error in Measurement.java, line 29:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 31:
+	er cannot be resolved or is not a field
+Compiler error in Measurement.java, line 31:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 48:
+	er cannot be resolved to a variable
+Compiler error in Measurement.java, line 48:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Measurement.java, line 51:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 51:
+	er cannot be resolved to a variable
+Compiler error in Measurement.java, line 55:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 55:
+	The primitive type int of groe does not have a field er
+

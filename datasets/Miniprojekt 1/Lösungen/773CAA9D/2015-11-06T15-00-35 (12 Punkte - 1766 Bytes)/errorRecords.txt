@@ -1,0 +1,12 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 82 Punkte
+Signaturcheck:
+	Die Methode "public void setRadius(double newRadius)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public double getDistance(Point p)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public void setLocation(Point newLocation)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+

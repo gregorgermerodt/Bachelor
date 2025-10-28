@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 1 - Circle.fromPoints() #1::
+	Fehler in der Methode Circle.fromPoints(): Der zur�ckgegebene Kreis sollte den Mittelpunkt (1,000000|2,000000) und einen Radius von 4,000000 haben. Die Methode gibt jedoch einen Kreis mit dem Mittelpunkt (1,000000|2,000000) und dem Radius 0,000000 zur�ck.<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.fromPoints() #2::
+	Fehler in der Methode Circle.fromPoints(): Der zur�ckgegebene Kreis sollte den Mittelpunkt (4,000000|4,000000) und einen Radius von 5,000000 haben. Die Methode gibt jedoch einen Kreis mit dem Mittelpunkt (4,000000|4,000000) und dem Radius 0,000000 zur�ck.<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#2.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+Fehlerhafte Codestruktur:
+	Hinweis (ohne Punktabzug): Du verwendest Variablennamen, die mit einem Großbuchstaben beginnen. Das ist möglich, aber es entspricht nicht dem üblichen Programmierstil für Java.
+

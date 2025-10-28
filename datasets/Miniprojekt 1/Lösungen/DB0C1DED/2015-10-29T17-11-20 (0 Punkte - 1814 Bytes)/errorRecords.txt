@@ -1,0 +1,22 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 28:
+	The constructor Point(Point) is undefined
+Compiler error in Circle.java, line 32:
+	point cannot be resolved to a variable
+Compiler error in Circle.java, line 51:
+	Syntax error on token "new", delete this token
+Compiler error in Circle.java, line 51:
+	zw cannot be resolved to a variable
+Compiler error in Circle.java, line 51:
+	Boolean cannot be resolved to a variable
+Compiler error in Circle.java, line 60:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Circle.java, line 60:
+	circle cannot be resolved to a type
+Compiler error in Circle.java, line 60:
+	nk cannot be resolved to a variable
+

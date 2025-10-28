@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 78 Punkte
+Fehler in Miniprojekt 2 - Matrix.transpose() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 73 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #2: java.lang.ArrayIndexOutOfBoundsException: 1:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 73 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1: java.lang.ArrayIndexOutOfBoundsException: 0:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 56 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2: java.lang.ArrayIndexOutOfBoundsException: 0:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 56 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3: java.util.IllegalFormatConversionException: d != java.lang.String:
+	
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

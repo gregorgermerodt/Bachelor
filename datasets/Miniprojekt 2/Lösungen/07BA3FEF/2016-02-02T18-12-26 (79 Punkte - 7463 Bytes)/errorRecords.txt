@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 77 Punkte
+Fehler in Miniprojekt 2 - Matrix.transpose() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 72 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #2: java.lang.ArrayIndexOutOfBoundsException: 1:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 72 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #3::
+	Der Aufruf von transpose() auf eine Matrix <br />4x4:<br />[1, 0, 0, 0]<br />[0, 1, 0, 0]<br />[0, 0, 1, 0]<br />[0, 0, 0, 1]<br /> sollte die Matrix wie folgt umwandeln: <br />4x4:<br />[1, 0, 0, 0]<br />[0, 1, 0, 0]<br />[0, 0, 1, 0]<br />[0, 0, 0, 1]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />4x4:<br />[0, 0, 0, 0]<br />[0, 0, 0, 0]<br />[0, 0, 0, 0]<br />[0, 0, 0, 1]<br />
+Fehler in Miniprojekt 2 - Measurement.addValue() #2::
+	Nach dem Aufruf von addValue(14) auf ein Measurement-Objekt mit den Messwerten [5, 9] sollte data folgendermaßen aussehen: [5, 9, 14]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [0, 0, 14]
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1, 8, 5, 0, 0]
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

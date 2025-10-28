@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 59:
+	ber cannot be resolved to a variable
+Compiler error in Measurement.java, line 59:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Measurement.java, line 60:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Measurement.java, line 60:
+	ber2 cannot be resolved to a variable
+Compiler error in Measurement.java, line 60:
+	Duplicate local variable dr
+

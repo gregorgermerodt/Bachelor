@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 78 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3: java.lang.ArrayIndexOutOfBoundsException: 3:
+	Du hast in der Klasse 'Matrix' in der Methode 'isEqualTo' in Zeile 53 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #1::
+	Nach dem Aufruf von scalarMultiplication(3) auf eine Matrix <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br /> sollte die Matrix wie folgt aussehen: <br />2x3:<br />[6, 9, 6]<br />[-6, -9, -12]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x3:<br />[6, 9, 2]<br />[-6, -9, -4]<br />
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #2::
+	Nach dem Aufruf von scalarMultiplication(0) auf eine Matrix <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br /> sollte die Matrix wie folgt aussehen: <br />2x3:<br />[0, 0, 0]<br />[0, 0, 0]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x3:<br />[0, 0, 2]<br />[0, 0, -4]<br />
+Fehler in Miniprojekt 2 - Measurement.addValues() #1::
+	Nach dem Aufruf von addValues(new int[] { 9, 1 }) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [9, 1]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1]
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1, 8, 2]
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

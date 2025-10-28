@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 94 Punkte
+Fehler in Miniprojekt 2 - Measurement-Konstruktor::
+	Der Aufruf des Measurement-Konstruktors sollte Measurement.data initialisieren, tatsächlich ist Measurement.data jedoch null
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1: java.lang.NullPointerException:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValue' in Zeile 12 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

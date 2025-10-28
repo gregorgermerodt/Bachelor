@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 17:
+	Cannot make a static reference to the non-static field Point.x
+Compiler error in Point.java, line 17:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 17:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 26:
+	Cannot make a static reference to the non-static field Point.x
+Compiler error in Point.java, line 33:
+	Y cannot be resolved or is not a field
+

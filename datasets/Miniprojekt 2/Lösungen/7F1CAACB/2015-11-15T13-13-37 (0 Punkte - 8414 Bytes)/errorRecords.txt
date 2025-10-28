@@ -1,0 +1,36 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 35:
+	This method must return a result of type boolean
+Compiler error in Measurement.java, line 26:
+	newData cannot be resolved to a variable
+Compiler error in Measurement.java, line 39:
+	The local variable i may not have been initialized
+Compiler error in Measurement.java, line 39:
+	The local variable i may not have been initialized
+Compiler error in Measurement.java, line 40:
+	The local variable i may not have been initialized
+Compiler error in Measurement.java, line 41:
+	The local variable i may not have been initialized
+Compiler error in Measurement.java, line 58:
+	iNeu cannot be resolved to a variable
+Compiler error in Measurement.java, line 58:
+	iData cannot be resolved to a variable
+Compiler error in Measurement.java, line 58:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Measurement.java, line 58:
+	iNeu cannot be resolved to a variable
+Compiler error in Measurement.java, line 59:
+	iData cannot be resolved to a variable
+Compiler error in Measurement.java, line 60:
+	iNeu cannot be resolved to a variable
+Compiler error in Measurement.java, line 60:
+	iData cannot be resolved to a variable
+Compiler error in Measurement.java, line 61:
+	iNeu cannot be resolved to a variable
+Compiler error in Measurement.java, line 8:
+	O cannot be resolved to a variable
+

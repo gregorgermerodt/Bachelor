@@ -1,0 +1,6 @@
+DYNAMISCHER TEST (ERGEBNIS): 97 Punkte
+Fehler in Miniprojekt 2 - Measurement.addValue() #1::
+	Nach dem Aufruf von addValue(10) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [10]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [0]
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

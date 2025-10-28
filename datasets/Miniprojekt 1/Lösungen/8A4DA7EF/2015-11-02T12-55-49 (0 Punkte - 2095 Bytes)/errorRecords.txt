@@ -1,0 +1,24 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 53:
+	Syntax error, insert ") Statement" to complete BlockStatements
+Compiler error in Circle.java, line 57:
+	The method getDistance(Point) is undefined for the type Point
+Compiler error in Circle.java, line 69:
+	Syntax error, insert ")" to complete Expression
+Compiler error in Point.java, line 36:
+	x2 cannot be resolved to a variable
+Compiler error in Point.java, line 36:
+	Syntax error on token "double", delete this token
+Compiler error in Point.java, line 36:
+	y1 cannot be resolved to a variable
+Compiler error in Point.java, line 36:
+	y2 cannot be resolved to a variable
+Compiler error in Point.java, line 36:
+	Syntax error on token "double", delete this token
+Compiler error in Point.java, line 36:
+	x1 cannot be resolved to a variable
+

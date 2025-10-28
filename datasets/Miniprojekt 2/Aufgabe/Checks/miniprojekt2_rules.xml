@@ -1,0 +1,169 @@
+<checkerrules>
+	<rule type="absence" points="0">
+		<query>from x : V{MethodDeclaration} with
+			x.name=capitalizeFirst(x.name) and
+			x.constructor="false"
+			report x.name
+			as "name" end
+		</query>
+		<feedback>Hinweis (ohne Punktabzug): Du verwendest Methodennamen, die
+			mit einem Großbuchstaben beginnen. Das ist möglich, aber es
+			entspricht nicht dem üblichen Programmierstil für Java.
+		</feedback>
+	</rule>
+	<rule type="absence" points="0">
+		<query>from x : V{TypeDeclaration} with not
+			(x.name=capitalizeFirst(x.name)) report x.name as "name" end
+		</query>
+		<feedback>Hinweis (ohne Punktabzug): Du verwendest Klassennamen, die
+			nicht mit einem Großbuchstaben beginnen. Das ist möglich, aber es
+			entspricht nicht dem üblichen Programmierstil für Java.
+		</feedback>
+	</rule>
+
+	<rule type="absence" points="0">
+		<query>from p : V{PackageDeclaration}
+			report 0 end
+		</query>
+		<feedback prefix="Paketdefinition">Deine Lösung beinhaltet eine package-Angabe.
+			Bitte entferne diese.
+		</feedback>
+	</rule>
+
+	<!-- Klasse Measurement -->
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Measurement" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public Measurement()")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Der Konstruktor "public Measurement()" in der Klasse "Measurement"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>	
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Measurement" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public void addValue(int)")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public void addValue(int value)" in der Klasse "Measurement"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Measurement" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public void addValues(int[])")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public void addValues(int[] values)" in der Klasse "Measurement"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Measurement" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public int getMinimumValue()")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public int getMinimumValue()" in der Klasse "Measurement"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>	
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Measurement" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public int[] getValuesAboveThreshold(int)")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public int[] getValuesAboveThreshold(int threshold)" in der Klasse "Measurement"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+
+	<!-- Klasse Matrix -->
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Matrix" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public Matrix(int[][])")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Der Konstruktor "public Matrix(int[][] initialValues)" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>	
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Matrix" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public void scalarMultiplication(int)")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public void scalarMultiplication(int c)" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Matrix" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public void add(Matrix)")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public void add(Matrix m)" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Matrix" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public int[] getColumnVector(int)")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public int[] getColumnVector(int col)" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Matrix" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public boolean isEqualTo(Matrix)")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public boolean isEqualTo(Matrix m)" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+			t.name="Matrix" and
+			t -->{TypeDeclarationBodyDeclarations2} m and
+			hasSignature(m, "public void transpose()")
+			report 0 end
+		</query>
+		<feedback prefix="Signatur">Die Methode "public void transpose()" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+		</feedback>
+	</rule>
+
+</checkerrules>

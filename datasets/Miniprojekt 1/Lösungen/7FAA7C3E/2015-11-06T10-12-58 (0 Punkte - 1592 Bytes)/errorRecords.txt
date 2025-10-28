@@ -1,0 +1,32 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 15:
+	X cannot be resolved or is not a field
+Compiler error in Point.java, line 16:
+	Y cannot be resolved or is not a field
+Compiler error in Point.java, line 21:
+	X cannot be resolved to a variable
+Compiler error in Point.java, line 25:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 25:
+	X cannot be resolved or is not a field
+Compiler error in Point.java, line 28:
+	Syntax error on token "/", delete this token
+Compiler error in Point.java, line 29:
+	Y cannot be resolved to a variable
+Compiler error in Point.java, line 34:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 38:
+	getX cannot be resolved or is not a field
+Compiler error in Point.java, line 38:
+	math cannot be resolved
+Compiler error in Point.java, line 38:
+	getY cannot be resolved or is not a field
+Compiler error in Point.java, line 38:
+	getX cannot be resolved to a variable
+Compiler error in Point.java, line 38:
+	getY cannot be resolved or is not a field
+

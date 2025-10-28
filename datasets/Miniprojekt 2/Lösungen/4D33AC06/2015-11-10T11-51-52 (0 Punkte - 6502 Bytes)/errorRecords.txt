@@ -1,0 +1,22 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 31:
+	The type of the expression must be an array type but it resolved to Matrix
+Compiler error in Matrix.java, line 35:
+	Void methods cannot return a value
+Compiler error in Matrix.java, line 49:
+	value cannot be resolved to a variable
+Compiler error in Matrix.java, line 49:
+	value cannot be resolved to a variable
+Compiler error in Matrix.java, line 51:
+	value cannot be resolved to a variable
+Compiler error in Matrix.java, line 52:
+	value cannot be resolved to a variable
+Compiler error in Matrix.java, line 54:
+	value cannot be resolved to a variable
+Compiler error in Matrix.java, line 58:
+	Void methods cannot return a value
+

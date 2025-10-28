@@ -1,0 +1,28 @@
+DYNAMISCHER TEST (ERGEBNIS): 46 Punkte
+Fehler in Miniprojekt 2 - Matrix.add() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'add' in Zeile 39 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.add() #2: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'add' in Zeile 39 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt [1, 4, 7, 0] zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2: java.lang.ArrayIndexOutOfBoundsException: 3:
+	Du hast in der Klasse 'Matrix' in der Methode 'getColumnVector' in Zeile 57 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'scalarMultiplication' in Zeile 19 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #2: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'scalarMultiplication' in Zeile 19 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #3: java.lang.ArrayIndexOutOfBoundsException: 3:
+	Du hast in der Klasse 'Matrix' in der Methode 'scalarMultiplication' in Zeile 19 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #1::
+	Der Aufruf von transpose() auf eine Matrix <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br /> sollte die Matrix wie folgt umwandeln: <br />3x2:<br />[1, 4]<br />[2, 5]<br />[3, 6]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />
+Fehler in Miniprojekt 2 - Matrix.transpose() #2::
+	Der Aufruf von transpose() auf eine Matrix <br />1x4:<br />[1, 2, 3, 4]<br /> sollte die Matrix wie folgt umwandeln: <br />4x1:<br />[1]<br />[2]<br />[3]<br />[4]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />1x4:<br />[1, 2, 3, 4]<br />
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 47, 18]. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2::
+	Für ein Measurement-Objekt mit den Messwerten [I@7077092 sollte getValuesAboveThreshold(50) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3::
+	Für ein Measurement-Objekt ohne Messwerte sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

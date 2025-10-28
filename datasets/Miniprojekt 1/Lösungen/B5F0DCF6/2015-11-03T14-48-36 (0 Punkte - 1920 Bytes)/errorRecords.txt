@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 21:
+	Radius cannot be resolved to a variable
+Compiler error in Circle.java, line 29:
+	Location cannot be resolved to a variable
+Compiler error in Circle.java, line 38:
+	Radius cannot be resolved to a variable
+Compiler error in Circle.java, line 43:
+	Radius cannot be resolved to a variable
+Compiler error in Circle.java, line 48:
+	Radius cannot be resolved to a variable
+Compiler error in Circle.java, line 66:
+	Cannot make a static reference to the non-static method setRadius(double) from the type Circle
+

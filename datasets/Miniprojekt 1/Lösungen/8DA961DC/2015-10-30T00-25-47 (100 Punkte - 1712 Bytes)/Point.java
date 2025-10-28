@@ -1,0 +1,35 @@
+public class Point {
+
+	// Koordinaten
+	private double x;
+	private double y;
+
+	public Point() {
+	}
+
+	public Point(double initX, double initY) {
+		this.x = initX;
+		this.y = initY;		
+	}
+
+	public double getX() {
+		return this.x;
+	}
+
+	public void setX(double newX) {
+		this.x = newX;
+	}
+
+	public double getY() {
+		return this.y;
+	}
+
+	public void setY(double newY) {
+		this.y = newY;
+	}
+
+	public double getDistance(Point p) {
+		double distance = Math.sqrt ((x - p.x)*(x - p.x) + (y - p.y)*(y - p.y));	
+		return distance;
+	}
+}

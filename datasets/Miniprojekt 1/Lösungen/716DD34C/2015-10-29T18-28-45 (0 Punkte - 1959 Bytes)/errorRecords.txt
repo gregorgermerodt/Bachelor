@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 52:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Circle.java, line 52:
+	The method If(boolean) is undefined for the type Circle
+Compiler error in Circle.java, line 54:
+	The left-hand side of an assignment must be a variable
+Compiler error in Circle.java, line 56:
+	Syntax error on token "else", delete this token
+Compiler error in Circle.java, line 58:
+	Syntax error, insert "}" to complete Block
+Compiler error in Circle.java, line 58:
+	The left-hand side of an assignment must be a variable
+

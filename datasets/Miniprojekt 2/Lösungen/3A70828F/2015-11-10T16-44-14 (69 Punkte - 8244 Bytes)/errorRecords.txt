@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 65 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #1::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit einer Matrix <br />3x2:<br />[2, 3]<br />[0, -1]<br />[0, 0]<br /> als Parameter sollte false zurückgeben. Deine Implementierung gibt true zurück.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #2::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit einer Matrix <br />2x3:<br />[2, 3, 0]<br />[0, -1, 0]<br /> als Parameter sollte false zurückgeben. Deine Implementierung gibt true zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt [0, 0, 0] zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2::
+	Der Aufruf von getColumnVector(1) auf eine Matrix <br />3x3:<br />[1, 2, 0]<br />[2, 1, -1]<br />[2, 0, 1]<br /> sollte [2, 1, 0] zurückgeben. Deine Implementierung gibt [0, 0, 0] zurück.
+Fehler in Miniprojekt 2 - Measurement.addValue() #2::
+	Nach dem Aufruf von addValue(14) auf ein Measurement-Objekt mit den Messwerten [5, 9] sollte data folgendermaßen aussehen: [5, 9, 14]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [0, 0, 14]
+Fehler in Miniprojekt 2 - Measurement.addValues() #1::
+	Nach dem Aufruf von addValues(new int[] { 9, 1 }) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [9, 1]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: []
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1, 8]
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 18, 47]. Deine Methode gibt [0, 0, 18] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

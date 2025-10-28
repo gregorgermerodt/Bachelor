@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 1 - Circle.Circle(Point initLocation, double initRadius)::
+	Der Konstruktor Circle.Circle(Point initLocation, double initRadius) setzt mindestens eines der Felder location und radius nicht korrekt<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.Circle(Point_initLocation,_double_initRadius).html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.getCircumference()::
+	Die Methode Circle.getCircumference() gibt bei einem Radius von 47,160000 den Wert 465,450544 zur�ck, sollte jedoch 296,315019 zur�ckgeben<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getCircumference().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

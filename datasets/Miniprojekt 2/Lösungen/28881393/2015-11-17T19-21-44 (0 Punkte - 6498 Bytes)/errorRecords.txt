@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 117:
+	Type mismatch: cannot convert from int to int[]
+Compiler error in Measurement.java, line 125:
+	Type mismatch: cannot convert from int to int[]
+

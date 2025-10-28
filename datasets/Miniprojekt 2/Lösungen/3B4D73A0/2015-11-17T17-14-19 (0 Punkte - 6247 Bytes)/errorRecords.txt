@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 10:
+	Variable must provide either dimension expressions or an array initializer
+Compiler error in Measurement.java, line 17:
+	Duplicate local variable myarray
+Compiler error in Measurement.java, line 17:
+	Syntax error on token "=", delete this token
+Compiler error in Measurement.java, line 17:
+	data cannot be resolved to a type
+Compiler error in Measurement.java, line 20:
+	Syntax error on token "int", invalid Expression
+Compiler error in Measurement.java, line 33:
+	Syntax error on token "int", invalid Expression
+Compiler error in Measurement.java, line 47:
+	Syntax error on token "int", invalid Expression
+

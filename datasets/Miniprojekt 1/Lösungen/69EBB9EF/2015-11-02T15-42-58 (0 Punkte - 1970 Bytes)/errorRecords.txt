@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 51:
+	Location cannot be resolved to a variable
+Compiler error in Point.java, line 24:
+	Syntax error on token "new", delete this token
+Compiler error in Point.java, line 32:
+	Syntax error on token "new", delete this token
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 51:
+	Location cannot be resolved to a variable
+Compiler error in Point.java, line 24:
+	Syntax error on token "new", delete this token
+Compiler error in Point.java, line 32:
+	Syntax error on token "new", delete this token
+

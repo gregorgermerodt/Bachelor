@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 2 - Measurement.addValues() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValues' in Zeile 30 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1, 5, 2, 4, 0]
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

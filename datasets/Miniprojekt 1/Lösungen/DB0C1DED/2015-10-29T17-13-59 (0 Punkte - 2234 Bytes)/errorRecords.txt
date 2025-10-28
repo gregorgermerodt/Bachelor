@@ -1,0 +1,42 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 32:
+	locations cannot be resolved to a variable
+Compiler error in Circle.java, line 36:
+	Duplicate method getDiameter() in type Circle
+Compiler error in Circle.java, line 41:
+	Duplicate method getCircumference() in type Circle
+Compiler error in Circle.java, line 46:
+	Duplicate method getArea() in type Circle
+Compiler error in Circle.java, line 50:
+	Duplicate method containsPoint(Point) in type Circle
+Compiler error in Circle.java, line 54:
+	Duplicate method fromPoints(Point, Point) in type Circle
+Compiler error in Circle.java, line 62:
+	Syntax error on token "}", delete this token
+Compiler error in Circle.java, line 65:
+	Duplicate method getDiameter() in type Circle
+Compiler error in Circle.java, line 70:
+	Duplicate method getCircumference() in type Circle
+Compiler error in Circle.java, line 75:
+	Duplicate method getArea() in type Circle
+Compiler error in Circle.java, line 79:
+	Duplicate method containsPoint(Point) in type Circle
+Compiler error in Circle.java, line 80:
+	Boolean cannot be resolved to a variable
+Compiler error in Circle.java, line 80:
+	Syntax error on token "new", delete this token
+Compiler error in Circle.java, line 80:
+	zw cannot be resolved to a variable
+Compiler error in Circle.java, line 85:
+	Duplicate method fromPoints(Point, Point) in type Circle
+Compiler error in Circle.java, line 89:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Circle.java, line 89:
+	circle cannot be resolved to a type
+Compiler error in Circle.java, line 89:
+	nk cannot be resolved to a variable
+

@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 8:
+	Cannot make a static reference to the non-static field Matrix.values
+Compiler error in Measurement.java, line 13:
+	Type mismatch: cannot convert from int to boolean
+Compiler error in Measurement.java, line 22:
+	The operator + is undefined for the argument type(s) int[], int[]
+Compiler error in Measurement.java, line 56:
+	The method addValue(int) is undefined for the type Measurement
+

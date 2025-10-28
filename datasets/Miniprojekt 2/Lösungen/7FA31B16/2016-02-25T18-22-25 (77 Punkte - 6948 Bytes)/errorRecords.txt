@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 74 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #1::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit einer Matrix <br />3x2:<br />[2, 3]<br />[0, -1]<br />[0, 0]<br /> als Parameter sollte false zurückgeben. Deine Implementierung gibt true zurück.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #2::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit einer Matrix <br />2x3:<br />[2, 3, 0]<br />[0, -1, 0]<br /> als Parameter sollte false zurückgeben. Deine Implementierung gibt true zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #1::
+	Für ein Measurement-Objekt mit den Messwerten [40, -5, 3, 18] sollte getMinimumValue() -5 zurückgeben. Deine Implementierung gibt 40 zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #2::
+	Für ein Measurement-Objekt mit den Messwerten [-2, -2, 3, 1] sollte getMinimumValue() -2 zurückgeben. Deine Implementierung gibt 3 zurück.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 18, 47]. Deine Methode gibt [0, 0, 12, 18, 47] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2::
+	Für ein Measurement-Objekt mit den Messwerten [I@75ab5e0b sollte getValuesAboveThreshold(50) die folgenden Werte zurückgeben: []. Deine Methode gibt [0, 0, 0, 0, 0] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

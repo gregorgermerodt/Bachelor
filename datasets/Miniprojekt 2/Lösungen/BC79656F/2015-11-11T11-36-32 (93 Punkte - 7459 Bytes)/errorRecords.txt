@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 92 Punkte
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #1::
+	Nach dem Aufruf von scalarMultiplication(3) auf eine Matrix <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br /> sollte die Matrix wie folgt aussehen: <br />2x3:<br />[6, 9, 6]<br />[-6, -9, -12]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x3:<br />[3, 3, 3]<br />[3, 3, 3]<br />
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #3::
+	Nach dem Aufruf von scalarMultiplication(-1) auf eine Matrix <br />3x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br /> sollte die Matrix wie folgt aussehen: <br />3x3:<br />[-1, -2, -3]<br />[-4, -5, -6]<br />[-7, -8, -9]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />3x3:<br />[-1, -1, -1]<br />[-1, -1, -1]<br />[-1, -1, -1]<br />
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

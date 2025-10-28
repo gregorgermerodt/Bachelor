@@ -1,0 +1,56 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 14:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Matrix.java, line 14:
+	Syntax error, insert "ArrayInitializer" to complete ArrayCreationWithArrayInitializer
+Compiler error in Matrix.java, line 19:
+	Syntax error on token "int", invalid Expression
+Compiler error in Matrix.java, line 19:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Matrix.java, line 19:
+	Syntax error on token "int", delete this token
+Compiler error in Matrix.java, line 19:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Matrix.java, line 19:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Matrix.java, line 28:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Matrix.java, line 28:
+	Syntax error, insert "ArrayInitializer" to complete ArrayCreationWithArrayInitializer
+Compiler error in Matrix.java, line 33:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Matrix.java, line 33:
+	Syntax error on token "m", delete this token
+Compiler error in Matrix.java, line 33:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Matrix.java, line 33:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Matrix.java, line 33:
+	Syntax error on token "int", invalid Expression
+Compiler error in Matrix.java, line 9:
+	Syntax error, insert "ArrayInitializer" to complete Expression
+Compiler error in Matrix.java, line 9:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Measurement.java, line 14:
+	The primitive type int of value does not have a field lenght
+Compiler error in Measurement.java, line 14:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 16:
+	The method merge(int[], int) is undefined for the type Measurement
+Compiler error in Measurement.java, line 16:
+	Duplicate local variable Addiertesarray
+Compiler error in Measurement.java, line 24:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 24:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 26:
+	The method merge(int[], int[]) is undefined for the type Measurement
+Compiler error in Measurement.java, line 26:
+	Duplicate local variable Addiertesarray2
+Compiler error in Measurement.java, line 33:
+	lenght cannot be resolved or is not a field
+

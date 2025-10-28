@@ -1,0 +1,229 @@
+import java.util.Arrays;
+
+public class Matrix {
+
+	private int[][] values,hilf;
+
+	public Matrix(int[][] initialValues) {
+		values=initialValues;
+		
+	}
+
+	public void scalarMultiplication(int c) {
+		int j=0;
+		int i=0;
+		while  ( i<values.length){
+			values[i][j]=values[i][j]*c;
+			i++;
+			int h=values.length;
+			if (values.length==i){
+				j++;
+				i=0;
+				if (j==values[i].length) break;
+			}
+		}
+	}
+
+	public void add(Matrix m) {
+		int j=0;
+		int i=0;
+		int [][] mtest ;
+		mtest=m.values;
+		while  ( i<values.length){
+			values[i][j]=values[i][j]+mtest[i][j];
+			i++;
+			int h=values.length;
+			if (values.length==i){
+				j++;
+				i=0;
+				if (j==values[i].length) break;
+			}
+		}
+
+	}
+
+	public int[] getColumnVector(int col) {
+		int i=0; 
+		int [] hilf2;
+		hilf2= new int [values.length];
+		while (i<values.length){
+			hilf2[i]=values[i][col];
+			i++;
+		}
+		return hilf2;
+	}
+
+	public boolean isEqualTo(Matrix m) {
+		if (values.length==m.values.length){
+			if (values[0].length==m.values[0].length){
+				for (int i=0; i<values.length; i++){
+					for (int j=0; j<values[i].length; j++){
+						if (values[i][j]==m.values[i][j]){
+							
+						}
+						else return false;
+					}
+				}
+			//	if (values[i][j]==m.values[i][j]){
+					
+				//		while  ( i<values.length){
+				//		values[i][j]=values[i][j];
+				//		i++;
+					//	int h=values.length;
+				//		if (values.length==i){
+				//			j++;
+				//			i=0;
+				//			if (j==values[i].length) break;}}
+				//	return true;
+			//	}
+			//	else return false;
+			}
+			else return false;
+		}
+		else return false;
+		
+		
+		
+		return true;
+	}
+
+	public void transpose() {
+		int j=0;
+		hilf =new int [values[j].length][values.length];
+		int i=0;
+		while  ( i<values.length){
+			hilf[j][i]=values[i][j];
+			i++;
+			int h=values.length;
+			if (values.length==i){
+				j++;
+				i=0;
+				if (j==values[i].length) break;
+			}
+		}
+		
+			values=hilf;
+	}
+
+	// --------------------------------------------------------------
+	
+	private void print() {
+		if (values == null) {
+			System.out.println("null");
+		} else {
+			System.out.printf("%dx%x:%n", values.length, values[0].length);
+
+			for (int[] row : values) {
+				System.out.println(Arrays.toString(row));
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		Matrix m = new Matrix(new int[][] { { 2, 4, 5 }, { 3, 7, 2 },
+				{ -2, 0, 1 }, { 5, 1, 1 } });
+
+		System.out.println("Neue Matrix m erzeugt. Matrix m:");
+		// Erwartete Ausgabe:
+		// 4x3:
+		// [2, 4, 5]
+		// [3, 7, 2]
+		// [-2, 0, 1]
+		// [5, 1, 1]
+		m.print();
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		Matrix n = new Matrix(new int[][] { { 1, 0, -1 }, { 1, 3, 3 } ,
+			{ -2, -4, 1 }, { 0, 0, 1 } });
+
+		System.out.println("Neue Matrix n erzeugt. Matrix n:");
+		// Erwartete Ausgabe:
+		// 4x3:
+		// [1, 0, -1]
+		// [1, 3, 3]
+		// [-2, -4, 1]
+		// [0, 0, 1]
+		n.print();
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		System.out
+				.println("Skalarmultiplikation von Matrix n mit dem Wert -1. Matrix n:");
+		n.scalarMultiplication(-1);
+		// Erwartete Ausgabe:
+		// 4x3:
+		// [-1, 0, 1]
+		// [-1, -3, -3]
+		// [2, 4, -1]
+		// [0, 0, -1]
+		n.print();
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		System.out.println("Matrix n wird zu Matrix m addiert. Matrix m:");
+		m.add(n);
+		// Erwartete Ausgabe:
+		// 4x3:
+		// [1, 4, 6]
+		// [2, 4, -1]
+		// [0, 4, 0]
+		// [5, 1, 0]
+		m.print();
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		System.out.println("Spaltenvektor mit Index 1 von Matrix m:");
+		int[] columnVector = m.getColumnVector(1);
+		// Erwartete Ausgabe:
+		// [4, 4, 4, 1]
+		System.out.println(Arrays.toString(columnVector));
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		System.out.println("Vergleich von Matrix m mit Matrix n:");
+		// Erwartete Ausgabe:
+		// false
+		System.out.println(m.isEqualTo(n));
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		Matrix o = new Matrix(new int[][] { { 1, 4, 6 }, { 2, 4, -1 },
+				{ 0, 4, 0 }, { 5, 1, 0 } });
+
+		System.out.println("Neue Matrix o erzeugt. Matrix o:");
+		// Erwartete Ausgabe:
+		// 4x3:
+		// [1, 4, 6]
+		// [2, 4, -1]
+		// [0, 4, 0]
+		// [5, 1, 0]
+		o.print();
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		System.out.println("Vergleich von Matrix o mit Matrix m:");
+		// Erwartete Ausgabe:
+		// true
+		System.out.println(o.isEqualTo(m));
+
+		System.out
+				.println("------------------------------------------------------------------");
+
+		System.out.println("Transponieren von Matrix o. Matrix o:");
+		o.transpose();
+		// Erwartete Ausgabe:
+		// 3x4:
+		// [1, 2, 0, 5]
+		// [4, 4, 4, 1]
+		// [6, -1, 0, 0]
+		o.print();
+	}
+}

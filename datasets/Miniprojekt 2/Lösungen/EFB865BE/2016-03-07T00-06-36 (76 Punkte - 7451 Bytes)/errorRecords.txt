@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 73 Punkte
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt [1, 4, 7, 0] zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #1::
+	Für ein Measurement-Objekt mit den Messwerten [40, -5, 3, 18] sollte getMinimumValue() -5 zurückgeben. Deine Implementierung gibt 18 zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #2::
+	Für ein Measurement-Objekt mit den Messwerten [-2, -2, 3, 1] sollte getMinimumValue() -2 zurückgeben. Deine Implementierung gibt 1 zurück.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 47, 18]. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2::
+	Für ein Measurement-Objekt mit den Messwerten [I@329e2e50 sollte getValuesAboveThreshold(50) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3::
+	Für ein Measurement-Objekt ohne Messwerte sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

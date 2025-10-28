@@ -1,0 +1,22 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 41:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Measurement.java, line 41:
+	hler cannot be resolved to a variable
+Compiler error in Measurement.java, line 45:
+	hler cannot be resolved to a variable
+Compiler error in Measurement.java, line 45:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 48:
+	The primitive type int of z does not have a field hler
+Compiler error in Measurement.java, line 48:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 53:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 53:
+	The primitive type int of z does not have a field hler
+

@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 92 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'isEqualTo' in Zeile 41 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #2: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'isEqualTo' in Zeile 41 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

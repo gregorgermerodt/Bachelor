@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 92 Punkte
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1: java.lang.ArrayIndexOutOfBoundsException: 0:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 59 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2: java.lang.ArrayIndexOutOfBoundsException: 0:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 59 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

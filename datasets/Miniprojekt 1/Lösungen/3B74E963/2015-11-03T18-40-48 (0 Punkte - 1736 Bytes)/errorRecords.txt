@@ -1,0 +1,24 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 47:
+	Pi cannot be resolved or is not a field
+Compiler error in Point.java, line 37:
+	xdiff cannot be resolved to a variable
+Compiler error in Point.java, line 37:
+	Cannot make a static reference to the non-static field Point.x
+Compiler error in Point.java, line 38:
+	ydiff cannot be resolved to a variable
+Compiler error in Point.java, line 38:
+	Cannot make a static reference to the non-static field Point.y
+Compiler error in Point.java, line 39:
+	xdiff cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	xdiff cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	ydiff cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	ydiff cannot be resolved to a variable
+

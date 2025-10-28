@@ -1,0 +1,34 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 12:
+	Syntax error on token ";", , expected
+Compiler error in Circle.java, line 31:
+	Syntax error on token "scan2", VariableDeclaratorId expected after this token
+Compiler error in Circle.java, line 31:
+	Syntax error on token ",", @ expected after this token
+Compiler error in Circle.java, line 39:
+	newLocation cannot be resolved to a variable
+Compiler error in Circle.java, line 42:
+	Syntax error on token "scan2", VariableDeclaratorId expected after this token
+Compiler error in Circle.java, line 42:
+	Syntax error on token ",", @ expected after this token
+Compiler error in Circle.java, line 61:
+	Syntax error on token "Invalid Character", delete this token
+Compiler error in Circle.java, line 66:
+	Syntax error on token "a", ) expected after this token
+Compiler error in Circle.java, line 66:
+	Syntax error on token "if", ( expected after this token
+Compiler error in Point.java, line 18:
+	newX cannot be resolved to a variable
+Compiler error in Point.java, line 19:
+	newY cannot be resolved to a variable
+Compiler error in Point.java, line 27:
+	Scanner cannot be resolved to a type
+Compiler error in Point.java, line 35:
+	Scanner cannot be resolved to a type
+Compiler error in Point.java, line 8:
+	Syntax error on token "scan1", VariableDeclaratorId expected after this token
+

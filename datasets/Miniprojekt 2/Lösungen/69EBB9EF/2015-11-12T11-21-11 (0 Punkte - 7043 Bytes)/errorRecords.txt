@@ -1,0 +1,28 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 14:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 14:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 20:
+	Syntax error on token "]", delete this token
+Compiler error in Matrix.java, line 20:
+	The operator + is undefined for the argument type(s) int[]
+Compiler error in Matrix.java, line 20:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 20:
+	Syntax error on token "[", delete this token
+Compiler error in Matrix.java, line 34:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 34:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 35:
+	Syntax error, insert "}" to complete Statement
+Compiler error in Matrix.java, line 42:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 42:
+	Syntax error on token "[", Expression expected after this token
+

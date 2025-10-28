@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 48:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Circle.java, line 48:
+	che cannot be resolved to a variable
+Compiler error in Circle.java, line 49:
+	The primitive type double of Fl does not have a field che
+Compiler error in Circle.java, line 49:
+	Syntax error on token "Invalid Character", . expected
+

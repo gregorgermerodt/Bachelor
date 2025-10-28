@@ -1,0 +1,46 @@
+package just.miniprojekt.org;
+
+/**
+ * Beschreibt einen Punkt im zweidimensionalen Koordinatensystem mit x- und
+ * y-Wert
+ */
+public class Point {
+
+	// Koordinaten
+	private double x;
+	private double y;
+
+	public Point() {
+	}
+
+	public Point(double initX, double initY) {
+		x = initX;
+		y = initY;
+		
+	}
+
+	public double getX() {
+		return this.x;
+	}
+
+	public void setX(double newX) {
+	 this.x = newX;
+	}
+
+	public double getY() {
+		return this.y;
+	}
+
+	public void setY(double newY) {
+		this.y = newY;
+		
+	}
+
+	public double getDistance(Point point) {
+		double varX,varY,solve;
+		varX = Math.pow(point.getX()-x, 2.0);
+		varY = Math.pow(point.getY()-y, 2.0);
+		solve = Math.sqrt(varX+varY);
+		return solve;
+	}
+}

@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 46:
+	Pi cannot be resolved or is not a field
+Compiler error in Circle.java, line 50:
+	p cannot be resolved to a variable
+Compiler error in Circle.java, line 53:
+	Syntax error on tokens, delete these tokens
+Compiler error in Circle.java, line 61:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 15:
+	Syntax error on token ",", ; expected
+Compiler error in Point.java, line 35:
+	Syntax error, insert ")" to complete ArgumentList
+Compiler error in Point.java, line 35:
+	Syntax error, insert ")" to complete Expression
+

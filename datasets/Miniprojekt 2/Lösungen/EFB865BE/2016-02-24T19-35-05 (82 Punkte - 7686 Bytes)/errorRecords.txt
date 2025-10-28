@@ -1,0 +1,12 @@
+DYNAMISCHER TEST (ERGEBNIS): 80 Punkte
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt [1, 4, 7] zurück.
+Fehler in Miniprojekt 2 - Matrix.transpose() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 72 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #2: java.lang.ArrayIndexOutOfBoundsException: 1:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 72 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #3::
+	Der Aufruf von transpose() auf eine Matrix <br />4x4:<br />[1, 0, 0, 0]<br />[0, 1, 0, 0]<br />[0, 0, 1, 0]<br />[0, 0, 0, 1]<br /> sollte die Matrix wie folgt umwandeln: <br />4x4:<br />[1, 0, 0, 0]<br />[0, 1, 0, 0]<br />[0, 0, 1, 0]<br />[0, 0, 0, 1]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />4x4:<br />[0, 0, 0, 0]<br />[0, 0, 0, 0]<br />[0, 0, 0, 0]<br />[0, 0, 0, 0]<br />
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 86 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #2: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'isEqualTo' in Zeile 65 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #1::
+	Der Aufruf von transpose() auf eine Matrix <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br /> sollte die Matrix wie folgt umwandeln: <br />3x2:<br />[1, 4]<br />[2, 5]<br />[3, 6]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />
+Fehler in Miniprojekt 2 - Matrix.transpose() #2::
+	Der Aufruf von transpose() auf eine Matrix <br />1x4:<br />[1, 2, 3, 4]<br /> sollte die Matrix wie folgt umwandeln: <br />4x1:<br />[1]<br />[2]<br />[3]<br />[4]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />1x4:<br />[1, 2, 3, 4]<br />
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

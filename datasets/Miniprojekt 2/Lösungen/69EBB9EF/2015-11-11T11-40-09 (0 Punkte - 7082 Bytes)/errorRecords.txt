@@ -1,0 +1,108 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 13:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 13:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 13:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 14:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 14:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 14:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 19:
+	o cannot be resolved to a variable
+Compiler error in Matrix.java, line 19:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 19:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 20:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 20:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 20:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 25:
+	Syntax error on token "int", invalid ClassType
+Compiler error in Matrix.java, line 32:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 32:
+	The method values(int) is undefined for the type Matrix
+Compiler error in Matrix.java, line 32:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 32:
+	The method values(int) is undefined for the type Matrix
+Compiler error in Matrix.java, line 33:
+	The method values(int) is undefined for the type Matrix
+Compiler error in Matrix.java, line 33:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 34:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 34:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 36:
+	Syntax error on token "}", { expected after this token
+Compiler error in Matrix.java, line 37:
+	Syntax error on token "}", delete this token
+Compiler error in Matrix.java, line 37:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Matrix.java, line 39:
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+Compiler error in Matrix.java, line 39:
+	Syntax error on token "void", @ expected
+Compiler error in Matrix.java, line 40:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 40:
+	The method values(int) is undefined for the type Matrix
+Compiler error in Matrix.java, line 41:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 41:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 41:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 42:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 42:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 45:
+	Syntax error on token "}", delete this token
+Compiler error in Matrix.java, line 49:
+	Syntax error on token "void", @ expected
+Compiler error in Measurement.java, line 13:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 13:
+	init cannot be resolved to a type
+Compiler error in Measurement.java, line 13:
+	init cannot be resolved to a type
+Compiler error in Measurement.java, line 14:
+	Syntax error on token "{", enum expected after this token
+Compiler error in Measurement.java, line 14:
+	Syntax error on token "int", invalid Expression
+Compiler error in Measurement.java, line 15:
+	Syntax error on token "=", enum expected
+Compiler error in Measurement.java, line 16:
+	Syntax error on token "{", invalid AssignmentOperator
+Compiler error in Measurement.java, line 16:
+	Syntax error on tokens, delete these tokens
+Compiler error in Measurement.java, line 22:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 22:
+	Syntax error on token ")", ] expected
+Compiler error in Measurement.java, line 22:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 23:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 31:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 40:
+	lenght cannot be resolved or is not a field
+Compiler error in Measurement.java, line 45:
+	Syntax error on token "int", invalid ClassType
+Compiler error in Measurement.java, line 8:
+	Syntax error on token "int", invalid ClassType
+

@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 93 Punkte
+Fehler in Miniprojekt 2 - Measurement.addValue() #1::
+	Nach dem Aufruf von addValue(10) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [10]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [0]
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 18, 47]. Deine Methode gibt [0, 12, 47] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

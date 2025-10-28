@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 65 Punkte
+Fehler in Miniprojekt 1 - Circle.containsPoint() #1::
+	Fehler in der Methode Circle.containsPoint(): Ein Kreis mit Mittelpunkt (3,500000|1,000000) und Radius (4,000000) enth�lt den Punkt (0,000000|0,000000), deine Methode liefert jedoch 'false' zur�ck<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.containsPoint()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.fromPoints() #1::
+	Fehler in der Methode Circle.fromPoints(): Das Feld Circle.location des zur�ckgegebenen Circle-Objekts hat den Wert null<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.fromPoints() #2::
+	Fehler in der Methode Circle.fromPoints(): Das Feld Circle.location des zur�ckgegebenen Circle-Objekts hat den Wert null<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#2.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius()::
+	Die Methode Circle.setRadius() setzt das Feld Circle.radius nicht korrekt. Nach dem Aufruf von Circle.setRadius(941,570000) hat Circle.radius den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius()::
+	Die Methode Circle.setLocation() setzt das Feld Circle.location nicht korrekt. Nach dem Aufruf von Circle.setLocation(Point@7d49fa1e) hat Circle.location den Wert Point@3ade32e1<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.setX()::
+	Die Methode Point.setX() setzt das Feld Point.y nicht korrekt. Nach dem Aufruf von Point.setX(4366,958000) hat Point.y den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.setX().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.setY()::
+	Die Methode Point.setY() setzt das Feld Point.y nicht korrekt. Nach dem Aufruf von Point.setY(-546,918000) hat Point.y den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.setY().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 40:
+	Syntax error on token "(", ; expected
+Compiler error in Measurement.java, line 40:
+	Syntax error on token ")", ; expected
+Compiler error in Measurement.java, line 40:
+	Illegal modifier for parameter getValuesAboveThreshold; only final is permitted
+Compiler error in Measurement.java, line 43:
+	Type mismatch: cannot convert from null to int
+Compiler error in Measurement.java, line 84:
+	The method getValuesAboveThreshold(int) is undefined for the type Measurement
+Compiler error in Measurement.java, line 92:
+	The method getValuesAboveThreshold(int) is undefined for the type Measurement
+

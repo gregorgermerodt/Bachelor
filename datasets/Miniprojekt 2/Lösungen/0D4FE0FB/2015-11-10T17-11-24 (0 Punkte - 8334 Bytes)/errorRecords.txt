@@ -1,0 +1,46 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 20:
+	Syntax error on token "}", delete this token
+Compiler error in Matrix.java, line 31:
+	Syntax error on token "}", delete this token
+Compiler error in Matrix.java, line 62:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Matrix.java, line 62:
+	Syntax error, insert "ArrayInitializer" to complete ArrayCreationWithArrayInitializer
+Compiler error in Matrix.java, line 67:
+	Syntax error on token "}", { expected after this token
+Compiler error in Matrix.java, line 69:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Matrix.java, line 72:
+	Syntax error on token "}", delete this token
+Compiler error in Matrix.java, line 76:
+	Syntax error on token "void", @ expected
+Compiler error in Measurement.java, line 19:
+	Syntax error, insert "}" to complete Block
+Compiler error in Measurement.java, line 25:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Measurement.java, line 28:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Measurement.java, line 35:
+	Type mismatch: cannot convert from int[] to int
+Compiler error in Measurement.java, line 36:
+	Syntax error on token "int", Identifier expected after this token
+Compiler error in Measurement.java, line 37:
+	treshold cannot be resolved to a variable
+Compiler error in Measurement.java, line 37:
+	tmp cannot be resolved to a variable
+Compiler error in Measurement.java, line 38:
+	The primitive type int of results does not have a field length
+Compiler error in Measurement.java, line 39:
+	The primitive type int of results does not have a field length
+Compiler error in Measurement.java, line 39:
+	The type of the expression must be an array type but it resolved to int
+Compiler error in Measurement.java, line 39:
+	tmp cannot be resolved to a variable
+Compiler error in Measurement.java, line 43:
+	Type mismatch: cannot convert from int to int[]
+

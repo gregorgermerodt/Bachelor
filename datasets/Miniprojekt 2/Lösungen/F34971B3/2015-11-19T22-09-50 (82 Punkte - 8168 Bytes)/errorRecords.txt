@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 80 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> mit einer Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> als Parameter sollte true zurückgeben. Deine Implementierung gibt false zurück.
+Fehler in Miniprojekt 2 - Measurement.addValue() #1::
+	Nach dem Aufruf von addValue(10) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [10]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: []
+Fehler in Miniprojekt 2 - Measurement.addValue() #2::
+	Nach dem Aufruf von addValue(14) auf ein Measurement-Objekt mit den Messwerten [5, 9] sollte data folgendermaßen aussehen: [5, 9, 14]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [5, 9]
+Fehler in Miniprojekt 2 - Measurement.addValues() #1::
+	Nach dem Aufruf von addValues(new int[] { 9, 1 }) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [9, 1]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: []
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1, 8]
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

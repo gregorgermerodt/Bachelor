@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 50:
+	raidus cannot be resolved to a variable
+Compiler error in Circle.java, line 50:
+	Mth cannot be resolved to a variable
+Compiler error in Circle.java, line 54:
+	Syntax error on token ")", ) expected after this token
+Compiler error in Circle.java, line 54:
+	The method sqrt(double) in the type Math is not applicable for the arguments (boolean)
+Compiler error in Circle.java, line 65:
+	Syntax error, insert ")" to complete Expression
+

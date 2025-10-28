@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 88 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #1::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit einer Matrix <br />3x2:<br />[2, 3]<br />[0, -1]<br />[0, 0]<br /> als Parameter sollte false zurückgeben. Deine Implementierung gibt true zurück.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #2::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit einer Matrix <br />2x3:<br />[2, 3, 0]<br />[0, -1, 0]<br /> als Parameter sollte false zurückgeben. Deine Implementierung gibt true zurück.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 18, 47]. Deine Methode gibt [0, 0, 18] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

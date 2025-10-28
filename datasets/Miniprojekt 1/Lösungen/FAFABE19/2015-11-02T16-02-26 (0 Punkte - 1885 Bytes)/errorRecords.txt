@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 15:
+	initlocation cannot be resolved to a variable
+Compiler error in Circle.java, line 52:
+	The method getdistance(Point) is undefined for the type Point
+Compiler error in Circle.java, line 62:
+	The method setlocation(Point) is undefined for the type Circle
+Compiler error in Circle.java, line 63:
+	The method getdistance(Point) is undefined for the type Point
+

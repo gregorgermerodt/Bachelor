@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 66 Punkte
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt [1, 2, 3] zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2::
+	Der Aufruf von getColumnVector(1) auf eine Matrix <br />3x3:<br />[1, 2, 0]<br />[2, 1, -1]<br />[2, 0, 1]<br /> sollte [2, 1, 0] zurückgeben. Deine Implementierung gibt [2, 1, -1] zurück.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'scalarMultiplication' in Zeile 17 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #2: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'scalarMultiplication' in Zeile 17 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #3: java.lang.ArrayIndexOutOfBoundsException: 3:
+	Du hast in der Klasse 'Matrix' in der Methode 'scalarMultiplication' in Zeile 17 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 47, 18]. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2::
+	Für ein Measurement-Objekt mit den Messwerten [I@796f84d8 sollte getValuesAboveThreshold(50) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3::
+	Für ein Measurement-Objekt ohne Messwerte sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: []. Deine Methode gibt null zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

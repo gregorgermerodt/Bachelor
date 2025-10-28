@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 50:
+	This method must return a result of type boolean
+Compiler error in Point.java, line 20:
+	Syntax error on token "X", VariableDeclaratorId expected after this token
+Compiler error in Point.java, line 20:
+	X cannot be resolved to a type
+Compiler error in Point.java, line 37:
+	The method getX() is undefined for the type Point
+

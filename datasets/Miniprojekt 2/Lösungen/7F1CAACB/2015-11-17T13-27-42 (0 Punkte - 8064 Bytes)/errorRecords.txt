@@ -1,0 +1,24 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 43:
+	Syntax error, insert "}" to complete Block
+Compiler error in Measurement.java, line 57:
+	Duplicate local variable i
+Compiler error in Measurement.java, line 57:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Measurement.java, line 57:
+	Syntax error, insert "; ; ) Statement" to complete ForStatement
+Compiler error in Measurement.java, line 57:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 57:
+	Syntax error on token ")", ; expected
+Compiler error in Measurement.java, line 58:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 59:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 60:
+	Syntax error, insert ";" to complete Statement
+

@@ -1,0 +1,52 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Fehler in Miniprojekt 2 - Matrix-Konstruktor: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #1: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #2: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.add() #1: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.add() #2: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #1: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #2: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #3: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.transpose() #1: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.transpose() #2: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Matrix.transpose() #3: java.lang.NullPointerException:
+	Du hast in der Klasse 'Matrix' bei der Initialisierung eines neuen Objekts in Zeile 10 versucht, auf ein Attribut oder eine Methode eines Objektes zuzugreifen, das gar nicht existiert. Statt auf das gewuenschte Objekt verweist die zugehoerige Variable ins Leere, also auf 'null'.
+Fehler in Miniprojekt 2 - Measurement-Konstruktor::
+	Der Aufruf des Measurement-Konstruktors sollte Measurement.data initialisieren, tatsächlich ist Measurement.data jedoch null
+Fehler in Miniprojekt 2 - Measurement.addValue() #1: java.lang.ArrayIndexOutOfBoundsException: 1:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValue' in Zeile 13 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.addValue() #2: java.lang.ArrayIndexOutOfBoundsException: 3:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValue' in Zeile 13 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.addValues() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValues' in Zeile 19 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.addValues() #2: java.lang.ArrayIndexOutOfBoundsException: 3:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValues' in Zeile 19 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #1: java.lang.ArrayIndexOutOfBoundsException: 4:
+	Du hast in der Klasse 'Measurement' in der Methode 'getMinimumValue' in Zeile 27 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #2: java.lang.ArrayIndexOutOfBoundsException: 4:
+	Du hast in der Klasse 'Measurement' in der Methode 'getMinimumValue' in Zeile 27 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1: java.lang.ArrayIndexOutOfBoundsException: 5:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 36 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2: java.lang.ArrayIndexOutOfBoundsException: 5:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 36 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3: java.lang.ArrayIndexOutOfBoundsException: 0:
+	Du hast in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 36 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

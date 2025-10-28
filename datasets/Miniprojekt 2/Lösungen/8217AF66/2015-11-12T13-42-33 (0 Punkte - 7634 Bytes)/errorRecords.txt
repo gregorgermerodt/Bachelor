@@ -1,0 +1,22 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 48:
+	nge cannot be resolved to a variable
+Compiler error in Measurement.java, line 48:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Measurement.java, line 53:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 53:
+	nge cannot be resolved to a variable
+Compiler error in Measurement.java, line 53:
+	The primitive type int of l does not have a field nge
+Compiler error in Measurement.java, line 53:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 56:
+	The primitive type int of l does not have a field nge
+Compiler error in Measurement.java, line 56:
+	Syntax error on token "Invalid Character", . expected
+

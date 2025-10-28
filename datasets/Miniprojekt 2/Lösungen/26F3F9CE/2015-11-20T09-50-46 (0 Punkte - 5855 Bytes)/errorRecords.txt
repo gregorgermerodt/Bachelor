@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 17:
+	Syntax error on token "}", { expected after this token
+Compiler error in Measurement.java, line 18:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Measurement.java, line 18:
+	Syntax error on token "]", AssignmentOperator expected after this token
+Compiler error in Measurement.java, line 23:
+	Syntax error on token "(", ; expected
+Compiler error in Measurement.java, line 23:
+	Syntax error on token ")", ; expected
+Compiler error in Measurement.java, line 27:
+	Syntax error on token "int", @ expected
+

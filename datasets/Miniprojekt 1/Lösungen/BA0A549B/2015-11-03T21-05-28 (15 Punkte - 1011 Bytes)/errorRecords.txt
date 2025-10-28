@@ -1,0 +1,44 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Fehler in Miniprojekt 1 - Circle.Circle(Point initLocation, double initRadius): java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.Circle(Point_initLocation,_double_initRadius).html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.containsPoint() #1: java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.containsPoint()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.containsPoint() #2: java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.containsPoint()_#2.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.containsPoint() #3: java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.containsPoint()_#3.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.containsPoint() #4: java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.containsPoint()_#4.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.fromPoints() #1: java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.fromPoints() #2: java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#2.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.getArea(): java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getArea().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.getCircumference(): java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getCircumference().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.getDiameter(): java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getDiameter().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.getLocation(): java.lang.NoSuchFieldException: location:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getLocation().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.getRadius(): java.lang.NoSuchFieldException: radius:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius(): java.lang.NoSuchFieldException: location:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius(): java.lang.NoSuchFieldException: radius:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.Point(double initX, double initY): java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.Point(double_initX,_double_initY).html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.getDistance() #1: java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.getDistance()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.getX(): java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.getX().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.getY(): java.lang.NoSuchFieldException: y:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.getY().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.setX(): java.lang.NoSuchFieldException: x:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.setX().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.setY(): java.lang.NoSuchFieldException: y:
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.setY().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

@@ -1,0 +1,144 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 1:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 10:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 11:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 12:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 12:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 12:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 13:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 14:
+	Syntax error on token "double", delete this token
+Compiler error in Point.java, line 14:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 14:
+	Syntax error on token "double", delete this token
+Compiler error in Point.java, line 15:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 15:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 15:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 16:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 16:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 16:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 17:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 17:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 17:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 18:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 19:
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+Compiler error in Point.java, line 19:
+	Syntax error on token "double", @ expected
+Compiler error in Point.java, line 20:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 20:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 20:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 21:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 21:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 21:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 22:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 23:
+	Syntax error on token ")", ; expected
+Compiler error in Point.java, line 23:
+	Syntax error on token "(", ; expected
+Compiler error in Point.java, line 24:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 24:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 24:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 25:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 25:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 25:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 26:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 27:
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+Compiler error in Point.java, line 27:
+	Syntax error on token "double", @ expected
+Compiler error in Point.java, line 28:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 28:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 28:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 29:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 29:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 29:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 30:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 31:
+	Syntax error on token ")", ; expected
+Compiler error in Point.java, line 31:
+	Syntax error on token "(", ; expected
+Compiler error in Point.java, line 32:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 32:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 32:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 33:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 33:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 33:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 34:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 35:
+	Syntax error on token ")", ; expected
+Compiler error in Point.java, line 35:
+	Syntax error on token "(", ; expected
+Compiler error in Point.java, line 36:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 36:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 36:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Point.java, line 37:
+	The left-hand side of an assignment must be a variable
+Compiler error in Point.java, line 37:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 37:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 38:
+	Syntax error, insert "}" to complete ClassBody
+Compiler error in Point.java, line 38:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 38:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Point.java, line 6:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 9:
+	Syntax error on token "9", { expected
+

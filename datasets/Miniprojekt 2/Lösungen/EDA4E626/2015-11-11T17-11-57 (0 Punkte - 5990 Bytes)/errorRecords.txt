@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 16:
+	Type mismatch: cannot convert from int[] to int
+Compiler error in Measurement.java, line 32:
+	Duplicate local variable data
+Compiler error in Measurement.java, line 32:
+	retrun cannot be resolved to a type
+Compiler error in Measurement.java, line 32:
+	Syntax error on token "i", delete this token
+Compiler error in Measurement.java, line 70:
+	The method getMinimumValue(int[]) in the type Measurement is not applicable for the arguments ()
+Compiler error in Measurement.java, line 77:
+	The method getValuesAboveThreshold(int, int[]) in the type Measurement is not applicable for the arguments (int)
+Compiler error in Measurement.java, line 85:
+	The method getValuesAboveThreshold(int, int[]) in the type Measurement is not applicable for the arguments (int)
+

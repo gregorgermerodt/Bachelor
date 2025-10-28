@@ -1,0 +1,6 @@
+DYNAMISCHER TEST (ERGEBNIS): 95 Punkte
+Fehler in Miniprojekt 1 - Point.setY()::
+	Die Methode Point.setY() setzt das Feld Point.y nicht korrekt. Nach dem Aufruf von Point.setY(-546,918000) hat Point.y den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.setY().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

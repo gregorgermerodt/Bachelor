@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 39:
+	Syntax error on tokens, ( expected instead
+Compiler error in Matrix.java, line 39:
+	length cannot be resolved to a variable
+Compiler error in Matrix.java, line 39:
+	Syntax error on token "m", invalid )
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 39:
+	Syntax error on token "m", invalid )
+Compiler error in Matrix.java, line 39:
+	Syntax error on tokens, ( expected instead
+Compiler error in Matrix.java, line 39:
+	length cannot be resolved to a variable
+

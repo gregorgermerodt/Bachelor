@@ -1,0 +1,12 @@
+DYNAMISCHER TEST (ERGEBNIS): 84 Punkte
+Fehler in Miniprojekt 2 - Measurement.addValue() #1: java.lang.ArrayIndexOutOfBoundsException: -1:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValue' in Zeile 20 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.addValue() #2::
+	Nach dem Aufruf von addValue(14) auf ein Measurement-Objekt mit den Messwerten [5, 9] sollte data folgendermaßen aussehen: [5, 9, 14]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [5, 9]
+Fehler in Miniprojekt 2 - Measurement.addValues() #1: java.lang.ArrayIndexOutOfBoundsException: 0:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValues' in Zeile 31 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.addValues() #2: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Measurement' in der Methode 'addValues' in Zeile 31 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

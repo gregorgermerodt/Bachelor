@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 53:
+	Syntax error on token ".", ; expected
+Compiler error in Circle.java, line 53:
+	Duplicate local variable circle
+Compiler error in Circle.java, line 53:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Circle.java, line 57:
+	Type mismatch: cannot convert from String to Circle
+

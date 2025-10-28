@@ -1,0 +1,32 @@
+DYNAMISCHER TEST (ERGEBNIS): 38 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> mit einer Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> als Parameter sollte true zurückgeben. Deine Implementierung gibt false zurück.
+Fehler in Miniprojekt 2 - Matrix.add() #1::
+	Nach dem Aufruf von add() auf eine Matrix <br />2x2:<br />[1, 2]<br />[3, 4]<br /> mit der folgenden Matrix als Parameter: <br />2x2:<br />[2, 4]<br />[6, 8]<br /> sollte die Matrix wie folgt aussehen: <br />2x2:<br />[3, 6]<br />[9, 12]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x2:<br />[24, 25]<br />[26, 27]<br />
+Fehler in Miniprojekt 2 - Matrix.add() #2::
+	Nach dem Aufruf von add() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit der folgenden Matrix als Parameter: <br />2x2:<br />[-1, -3]<br />[0, 2]<br /> sollte die Matrix wie folgt aussehen: <br />2x2:<br />[1, 0]<br />[0, 1]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x2:<br />[25, 26]<br />[23, 22]<br />
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt [0, 0, 0, 0] zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2::
+	Der Aufruf von getColumnVector(1) auf eine Matrix <br />3x3:<br />[1, 2, 0]<br />[2, 1, -1]<br />[2, 0, 1]<br /> sollte [2, 1, 0] zurückgeben. Deine Implementierung gibt [0, 0, 0] zurück.
+Fehler in Miniprojekt 2 - Matrix.transpose() #1: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 95 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #2: java.lang.ArrayIndexOutOfBoundsException: 1:
+	Du hast in der Klasse 'Matrix' in der Methode 'transpose' in Zeile 95 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.addValue() #1::
+	Nach dem Aufruf von addValue(10) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [10]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: []
+Fehler in Miniprojekt 2 - Measurement.addValue() #2::
+	Nach dem Aufruf von addValue(14) auf ein Measurement-Objekt mit den Messwerten [5, 9] sollte data folgendermaßen aussehen: [5, 9, 14]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [5, 9]
+Fehler in Miniprojekt 2 - Measurement.addValues() #1::
+	Nach dem Aufruf von addValues(new int[] { 9, 1 }) auf ein Measurement-Objekt ohne Messwerte sollte data folgendermaßen aussehen: [9, 1]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: []
+Fehler in Miniprojekt 2 - Measurement.addValues() #2::
+	Nach dem Aufruf von addValues(new int[] { 5, 2, 4 }) auf ein Measurement-Objekt mit den Messwerten [1, 8] sollte data folgendermaßen aussehen: [1, 8, 5, 2, 4]. Nach dem Aufruf deiner Implementierung sieht data jedoch wie folgt aus: [1, 8]
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1: java.lang.OutOfMemoryError: Requested array size exceeds VM limit:
+	Frage zu diesem Fehler einen Tutor um Rat.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2: java.lang.OutOfMemoryError: Requested array size exceeds VM limit:
+	Frage zu diesem Fehler einen Tutor um Rat.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3: java.lang.OutOfMemoryError: Requested array size exceeds VM limit:
+	Frage zu diesem Fehler einen Tutor um Rat.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

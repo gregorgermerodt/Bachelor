@@ -1,0 +1,24 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 24:
+	Syntax error, insert "; ; ) Statement" to complete ForStatement
+Compiler error in Matrix.java, line 24:
+	Syntax error on token "=", delete this token
+Compiler error in Matrix.java, line 24:
+	Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+Compiler error in Matrix.java, line 24:
+	Syntax error, insert "}" to complete Block
+Compiler error in Matrix.java, line 24:
+	Syntax error on token "int", invalid Expression
+Compiler error in Measurement.java, line 50:
+	Syntax error on token ",", ; expected
+Compiler error in Measurement.java, line 50:
+	indexNeu cannot be resolved to a variable
+Compiler error in Measurement.java, line 52:
+	indexNeu cannot be resolved to a variable
+Compiler error in Measurement.java, line 53:
+	indexNeu cannot be resolved to a variable
+

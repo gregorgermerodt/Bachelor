@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #1::
+	Für ein Measurement-Objekt mit den Messwerten [40, -5, 3, 18] sollte getMinimumValue() -5 zurückgeben. Deine Implementierung gibt -1 zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #2::
+	Für ein Measurement-Objekt mit den Messwerten [-2, -2, 3, 1] sollte getMinimumValue() -2 zurückgeben. Deine Implementierung gibt -1 zurück.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

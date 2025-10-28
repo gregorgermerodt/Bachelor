@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 94 Punkte
+Fehlerhafte Codestruktur:
+	Hinweis (ohne Punktabzug): Du verwendest Variablennamen, die mit einem Großbuchstaben beginnen. Das ist möglich, aber es entspricht nicht dem üblichen Programmierstil für Java.
+Paketdefinition:
+	Deine Lösung beinhaltet eine package-Angabe. Bitte entferne diese.
+

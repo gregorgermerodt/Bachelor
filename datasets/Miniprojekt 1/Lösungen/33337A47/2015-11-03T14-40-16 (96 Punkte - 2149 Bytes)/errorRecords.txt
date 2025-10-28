@@ -1,0 +1,6 @@
+DYNAMISCHER TEST (ERGEBNIS): 95 Punkte
+Fehler in Miniprojekt 1 - Point.getDistance() #1::
+	F�r die Punkte P1(0,000000|0,000000) und P2(3,000000|-4,000000) sollte die Methode Point.getDistance() 5,000000 zur�ckgeben, sie liefert aber 4,242641<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.getDistance()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

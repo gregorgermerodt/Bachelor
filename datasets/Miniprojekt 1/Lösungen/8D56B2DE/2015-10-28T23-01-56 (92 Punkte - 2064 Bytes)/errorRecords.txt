@@ -1,0 +1,8 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 1 - Circle.setRadius()::
+	Die Methode Circle.setLocation() setzt das Feld Circle.location nicht korrekt. Nach dem Aufruf von Circle.setLocation(Point@6eb96738) hat Circle.location den Wert Point@154d5994<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius()::
+	Die Methode Circle.setRadius() setzt das Feld Circle.radius nicht korrekt. Nach dem Aufruf von Circle.setRadius(941,570000) hat Circle.radius den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

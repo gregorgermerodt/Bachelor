@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 42:
+	Syntax error on token "Invalid Character", delete this token
+Compiler error in Measurement.java, line 45:
+	Syntax error on token "Invalid Character", delete this token
+Compiler error in Measurement.java, line 46:
+	Syntax error on token "Invalid Character", delete this token
+Compiler error in Measurement.java, line 47:
+	Syntax error on token "Invalid Character", delete this token
+Compiler error in Measurement.java, line 50:
+	Syntax error on token "Invalid Character", delete this token
+Compiler error in Measurement.java, line 53:
+	Syntax error on token "Invalid Character", delete this token
+

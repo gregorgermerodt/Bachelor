@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 35:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Matrix.java, line 38:
+	The type of the expression must be an array type but it resolved to Matrix
+Compiler error in Matrix.java, line 40:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Matrix.java, line 40:
+	Syntax error on token "&&", invalid (
+

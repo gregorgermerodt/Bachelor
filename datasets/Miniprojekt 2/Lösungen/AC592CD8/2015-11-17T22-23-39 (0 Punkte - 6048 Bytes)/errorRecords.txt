@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 14:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Measurement.java, line 13:
+	Syntax error on token ")", delete this token
+Compiler error in Measurement.java, line 22:
+	This method must return a result of type int
+Compiler error in Measurement.java, line 27:
+	Syntax error on tokens, delete these tokens
+

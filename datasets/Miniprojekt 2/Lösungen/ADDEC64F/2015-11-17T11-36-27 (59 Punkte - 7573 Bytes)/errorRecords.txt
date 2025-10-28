@@ -1,0 +1,26 @@
+DYNAMISCHER TEST (ERGEBNIS): 54 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #2::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit einer Matrix <br />2x3:<br />[2, 3, 0]<br />[0, -1, 0]<br /> als Parameter sollte false zurückgeben. Deine Implementierung gibt true zurück.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> mit einer Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> als Parameter sollte true zurückgeben. Deine Implementierung gibt false zurück.
+Fehler in Miniprojekt 2 - Measurement.addValue() #1: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'addValue' in Zeile 14 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.addValue() #2: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'addValue' in Zeile 14 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.addValues() #1: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'addValues' in Zeile 25 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.addValues() #2: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'addValues' in Zeile 25 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #1: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'getMinimumValue' in Zeile 36 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #2: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'getMinimumValue' in Zeile 36 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 43 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #2: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 43 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #3: java.lang.StackOverflowError:
+	Dein Programm ruft sich in der Klasse 'Measurement' in der Methode 'getValuesAboveThreshold' in Zeile 43 immer wieder mit denselben Parametern auf und gelangt dadurch in eine Endlosschleife.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

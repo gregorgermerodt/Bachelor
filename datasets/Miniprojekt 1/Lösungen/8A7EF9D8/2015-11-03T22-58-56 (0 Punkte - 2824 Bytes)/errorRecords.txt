@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 70:
+	The method fromPoints cannot be declared static; static methods can only be declared in a static or top level type
+Compiler error in Point.java, line 80:
+	Syntax error, insert "}" to complete ClassBody
+

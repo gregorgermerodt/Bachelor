@@ -1,0 +1,40 @@
+/**
+ * Beschreibt einen Punkt im zweidimensionalen Koordinatensystem mit x- und
+ * y-Wert
+ */
+public class Point {
+
+	// Koordinaten
+	private double x;
+	private double y;
+
+	public Point() {
+	}
+
+	public Point(double initX, double initY) {
+		this.x = initX;
+		this.y = initY;
+
+	}
+
+	public double getX() {
+		return -1.0;
+	}
+
+	public void setX(double newX) {
+		this.x = newX;
+	}
+
+	public double getY() {
+		return -1.0;
+	}
+
+	public void setY(double newY) {
+	}
+
+	public double getDistance(Point p) {
+		double d = 0;
+		d = Math.sqrt(Math.pow(p.getX(), 2)+ Math.pow(p.getY()-this.getY(), 2));
+		return -1.0;
+	}
+}

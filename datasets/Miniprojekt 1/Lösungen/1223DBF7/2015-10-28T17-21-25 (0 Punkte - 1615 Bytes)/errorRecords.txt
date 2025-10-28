@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 35:
+	Syntax error, insert ")" to complete Expression
+Compiler error in Point.java, line 35:
+	Syntax error, insert ")" to complete MethodInvocation
+Compiler error in Point.java, line 35:
+	The method pow(double, double) in the type Math is not applicable for the arguments (double)
+Compiler error in Point.java, line 35:
+	Syntax error, insert ")" to complete MethodInvocation
+Compiler error in Point.java, line 35:
+	Syntax error, insert ";" to complete Statement
+

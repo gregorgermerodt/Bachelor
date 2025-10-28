@@ -1,0 +1,6 @@
+DYNAMISCHER TEST (ERGEBNIS): 95 Punkte
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2::
+	Der Aufruf von getColumnVector(1) auf eine Matrix <br />3x3:<br />[1, 2, 0]<br />[2, 1, -1]<br />[2, 0, 1]<br /> sollte [2, 1, 0] zurückgeben. Deine Implementierung gibt [2, 1, 0, 0] zurück.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

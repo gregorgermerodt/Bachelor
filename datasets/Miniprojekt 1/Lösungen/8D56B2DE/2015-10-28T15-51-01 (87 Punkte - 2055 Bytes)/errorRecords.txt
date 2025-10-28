@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 85 Punkte
+Fehler in Miniprojekt 1 - Circle.getCircumference()::
+	Die Methode Circle.getCircumference() gibt bei einem Radius von 47,160000 den Wert 148,157510 zur�ck, sollte jedoch 296,315019 zur�ckgeben<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getCircumference().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius()::
+	Die Methode Circle.setRadius() setzt das Feld Circle.radius nicht korrekt. Nach dem Aufruf von Circle.setRadius(941,570000) hat Circle.radius den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius()::
+	Die Methode Circle.setLocation() setzt das Feld Circle.location nicht korrekt. Nach dem Aufruf von Circle.setLocation(Point@132803ba) hat Circle.location den Wert Point@5984b649<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

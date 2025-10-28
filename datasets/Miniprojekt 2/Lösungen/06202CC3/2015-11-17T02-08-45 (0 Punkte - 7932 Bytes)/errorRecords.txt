@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 39:
+	Syntax error on token "<<", ++ expected
+Compiler error in Measurement.java, line 17:
+	Syntax error on token "(", delete this token
+Compiler error in Measurement.java, line 18:
+	hilfsarray cannot be resolved to a variable
+Compiler error in Measurement.java, line 23:
+	hilfsarray cannot be resolved to a variable
+Compiler error in Measurement.java, line 24:
+	hilfsarray cannot be resolved to a variable
+Compiler error in Measurement.java, line 59:
+	Unreachable code
+

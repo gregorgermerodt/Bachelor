@@ -1,0 +1,79 @@
+/**
+ * Definiert einen Kreis über einen Radius und einem Mittelpunkt in einem
+ * zweidimensionalen Koordinatensystem
+ */
+public class Circle {
+
+	// Mittelpunkt des Kreises
+	private Point location;
+	private double radius;
+
+	public Circle() {
+		location=new Point();
+	}
+
+	public Circle(Point initLocation, double initRadius) {
+		location = initLocation;
+		radius = initRadius;
+
+	}
+
+	public double getRadius() {
+		return this.radius;
+	}
+
+	public void setRadius(double newRadius) {
+		radius = newRadius;
+	}
+
+	public Point getLocation() {
+		return location;
+	}
+
+	public void setLocation(Point newLocation) {
+		location = newLocation;
+	}
+
+	// Durchmesser
+	public double getDiameter() {
+		return (radius * 2);
+	}
+
+	// Umfang
+	public double getCircumference() {
+		return Math.PI * getDiameter();
+	}
+
+	// Fläche
+	public double getArea() {
+		return Math.PI * Math.pow(radius, 2);
+	}
+
+	public boolean containsPoint(Point point) {
+		boolean isDrin=true;
+		double xKP=(location.getX() - point.getX())*(location.getX() - point.getX());
+		double yKP=(location.getY()-point.getY())*(location.getY()-point.getY());
+		//(x_kreis - x_P)*(x_kreis - x_P) + (y_kreis - y_P)*(y_kreis - y_P) < radius*radius )
+		if(xKP+yKP<(radius*radius)){
+			isDrin=true;
+		}
+		else isDrin=false;
+		
+		return isDrin;
+	}
+
+	public static Circle fromPoints(Point center, Point p) {
+		Circle circle = new Circle();
+
+		// An dieser Stelle das circle-Objekt bearbeiten
+//		Implementieren Sie die Methode fromPoints(Point center, Point p) so, dass sie
+//		ein neues Circle-Objekt mit folgenden Eigenschaften zurückgibt:
+//		o Der Mittelpunkt des so erzeugten Kreises ist center
+//		o Der Punkt p liegt genau auf dem Kreisrand
+		circle.location=center;
+		circle.radius=circle.location.getDistance(p);
+
+		return circle;
+	}
+
+}

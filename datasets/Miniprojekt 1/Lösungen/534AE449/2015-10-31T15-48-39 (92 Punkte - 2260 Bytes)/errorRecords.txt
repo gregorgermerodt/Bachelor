@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 1 - Circle.Circle(Point initLocation, double initRadius)::
+	Der Konstruktor Circle.Circle(Point initLocation, double initRadius) setzt mindestens eines der Felder location und radius nicht korrekt<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.Circle(Point_initLocation,_double_initRadius).html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.setRadius()::
+	Die Methode Circle.setLocation() setzt das Feld Circle.location nicht korrekt. Nach dem Aufruf von Circle.setLocation(Point@4f966d52) hat Circle.location den Wert Point@e658001<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.setRadius().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+Fehlerhafte Codestruktur:
+	Hinweis (ohne Punktabzug): Du verwendest Variablennamen, die mit einem Großbuchstaben beginnen. Das ist möglich, aber es entspricht nicht dem üblichen Programmierstil für Java.
+

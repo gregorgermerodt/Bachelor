@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 76 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> mit einer Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> als Parameter sollte true zurückgeben. Deine Implementierung gibt false zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt [1, 4, 7] zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2: java.lang.ArrayIndexOutOfBoundsException: 2:
+	Du hast in der Klasse 'Matrix' in der Methode 'getColumnVector' in Zeile 36 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Matrix.transpose() #1::
+	Der Aufruf von transpose() auf eine Matrix <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br /> sollte die Matrix wie folgt umwandeln: <br />3x2:<br />[1, 4]<br />[2, 5]<br />[3, 6]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />
+Fehler in Miniprojekt 2 - Matrix.transpose() #2::
+	Der Aufruf von transpose() auf eine Matrix <br />1x4:<br />[1, 2, 3, 4]<br /> sollte die Matrix wie folgt umwandeln: <br />4x1:<br />[1]<br />[2]<br />[3]<br />[4]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />1x4:<br />[1, 2, 3, 4]<br />
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

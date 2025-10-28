@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 19:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 19:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 31:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 31:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 66:
+	i cannot be resolved to a variable
+Compiler error in Measurement.java, line 72:
+	i cannot be resolved to a variable
+

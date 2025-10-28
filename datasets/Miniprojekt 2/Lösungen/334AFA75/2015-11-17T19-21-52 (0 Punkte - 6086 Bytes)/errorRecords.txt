@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 8:
+	Syntax error on token "new", invalid Expression
+Compiler error in Measurement.java, line 21:
+	data cannot be resolved to a type
+Compiler error in Measurement.java, line 21:
+	Syntax error on token "data", VariableDeclaratorId expected after this token
+Compiler error in Measurement.java, line 5:
+	Syntax error on tokens, delete these tokens
+

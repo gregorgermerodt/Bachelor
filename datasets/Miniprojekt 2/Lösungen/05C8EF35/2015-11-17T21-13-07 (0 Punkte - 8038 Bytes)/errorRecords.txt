@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 36:
+	Syntax error on token ")", ; expected
+Compiler error in Matrix.java, line 36:
+	Duplicate local variable m
+Compiler error in Matrix.java, line 36:
+	Syntax error on token "(", ; expected
+Compiler error in Matrix.java, line 36:
+	Illegal modifier for parameter isEqualTo; only final is permitted
+Compiler error in Matrix.java, line 56:
+	Syntax error on token "*", invalid AssignmentOperator
+

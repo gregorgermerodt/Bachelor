@@ -1,0 +1,15 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 73 Punkte
+Signatur:
+	Die Methode "public int[] getColumnVector(int col)" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signatur:
+	Die Methode "public boolean isEqualTo(Matrix m)" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signatur:
+	Die Methode "public void transpose()" in der Klasse "Matrix"
+			fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+

@@ -1,0 +1,18 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 76:
+	The constructor Point(double, double) is undefined
+Compiler error in Circle.java, line 77:
+	The constructor Point(double, double) is undefined
+Compiler error in Circle.java, line 78:
+	The constructor Point(double, double) is undefined
+Compiler error in Circle.java, line 79:
+	The constructor Point(double, double) is undefined
+Compiler error in Circle.java, line 80:
+	The constructor Point(double, double) is undefined
+Compiler error in Circle.java, line 81:
+	The constructor Point(double, double) is undefined
+

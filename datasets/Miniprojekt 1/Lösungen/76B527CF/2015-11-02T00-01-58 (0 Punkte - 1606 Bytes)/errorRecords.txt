@@ -1,0 +1,12 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 37:
+	Duplicate method getDistance(Point) in type Point
+Compiler error in Point.java, line 40:
+	Syntax error on token "}", delete this token
+Compiler error in Point.java, line 41:
+	Duplicate method getDistance(Point) in type Point
+

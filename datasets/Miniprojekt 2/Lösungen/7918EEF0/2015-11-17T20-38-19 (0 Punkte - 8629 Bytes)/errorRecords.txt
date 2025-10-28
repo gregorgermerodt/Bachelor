@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 82:
+	transenMAtrix cannot be resolved to a variable
+Compiler error in Measurement.java, line 50:
+	treshold cannot be resolved to a variable
+Compiler error in Measurement.java, line 56:
+	Syntax error on token ",", ; expected
+Compiler error in Measurement.java, line 57:
+	treshold cannot be resolved to a variable
+Compiler error in Measurement.java, line 9:
+	date cannot be resolved to a variable
+

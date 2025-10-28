@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 145:
+	Arrays cannot be resolved
+Compiler error in Matrix.java, line 78:
+	Arrays cannot be resolved
+Compiler error in Measurement.java, line 110:
+	Arrays cannot be resolved
+Compiler error in Measurement.java, line 118:
+	Arrays cannot be resolved
+Compiler error in Measurement.java, line 71:
+	Arrays cannot be resolved
+

@@ -1,0 +1,16 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 15:
+	Void methods cannot return a value
+Compiler error in Circle.java, line 23:
+	Void methods cannot return a value
+Compiler error in Circle.java, line 31:
+	Void methods cannot return a value
+Compiler error in Point.java, line 36:
+	The method pow(double, double) in the type Math is not applicable for the arguments (double)
+Compiler error in Point.java, line 36:
+	The method pow(double, double) in the type Math is not applicable for the arguments (double)
+

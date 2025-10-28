@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 95 Punkte
+Fehler in Miniprojekt 1 - Circle.getLocation()::
+	Die Methode Circle.getLocation() liefert einen fehlerhaften Wert zur�ck (Point@6ddbe530)<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getLocation().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 76 Punkte
+Signaturcheck:
+	Der Konstruktor "public Circle(Point initLocation, double initRadius)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public void setY(double newY)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Die Methode "public void setX(double newX)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+Signaturcheck:
+	Der Konstruktor "public Point(double initX, double initY)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?
+

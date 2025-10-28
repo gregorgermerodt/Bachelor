@@ -1,0 +1,34 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 12:
+	Syntax error on token "Invalid Character", , expected
+Compiler error in Measurement.java, line 14:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 16:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 18:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 18:
+	The primitive type int of erg does not have a field nzt
+Compiler error in Measurement.java, line 19:
+	The primitive type int of erg does not have a field nzt
+Compiler error in Measurement.java, line 19:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 23:
+	Syntax error on token "Invalid Character", , expected
+Compiler error in Measurement.java, line 25:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 28:
+	Syntax error on token "Invalid Character", invalid AssignmentOperator
+Compiler error in Measurement.java, line 30:
+	The primitive type int of gr does not have a field sser
+Compiler error in Measurement.java, line 30:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 31:
+	The primitive type int of gr does not have a field sser
+Compiler error in Measurement.java, line 31:
+	Syntax error on token "Invalid Character", . expected
+

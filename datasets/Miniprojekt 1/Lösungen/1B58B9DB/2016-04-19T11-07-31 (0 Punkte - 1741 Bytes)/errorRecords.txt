@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 27:
+	Syntax error on token "new", delete this token
+Compiler error in Point.java, line 27:
+	set cannot be resolved to a variable
+Compiler error in Point.java, line 36:
+	set cannot be resolved to a variable
+Compiler error in Point.java, line 36:
+	Syntax error on token "new", delete this token
+

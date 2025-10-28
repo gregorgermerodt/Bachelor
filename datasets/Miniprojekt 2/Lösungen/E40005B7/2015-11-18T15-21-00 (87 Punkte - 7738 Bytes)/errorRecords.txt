@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 86 Punkte
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> mit einer Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> als Parameter sollte true zurückgeben. Deine Implementierung gibt false zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #1::
+	Für ein Measurement-Objekt mit den Messwerten [40, -5, 3, 18] sollte getMinimumValue() -5 zurückgeben. Deine Implementierung gibt 4 zurück.
+Fehler in Miniprojekt 2 - Measurement.getMinimumValue() #2::
+	Für ein Measurement-Objekt mit den Messwerten [-2, -2, 3, 1] sollte getMinimumValue() -2 zurückgeben. Deine Implementierung gibt 4 zurück.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

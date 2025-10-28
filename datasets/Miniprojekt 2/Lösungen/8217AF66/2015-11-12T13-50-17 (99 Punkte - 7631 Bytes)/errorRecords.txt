@@ -1,0 +1,6 @@
+DYNAMISCHER TEST (ERGEBNIS): 99 Punkte
+Fehler in Miniprojekt 2 - Matrix-Konstruktor::
+	Der Konstruktor der Klasse Matrix sollte das als Parameter übergeben Array dem Feld values zuweisen. Nach dem Aufruf deiner Implementierung verweist values jedoch nicht auf dasselbe Array, wie initialValues.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

@@ -1,0 +1,28 @@
+DYNAMISCHER TEST (ERGEBNIS): 49 Punkte
+Fehler in Miniprojekt 2 - Matrix-Konstruktor::
+	Der Konstruktor der Klasse Matrix sollte das als Parameter übergeben Array dem Feld values zuweisen. Nach dem Aufruf deiner Implementierung verweist values jedoch nicht auf dasselbe Array, wie initialValues.
+Fehler in Miniprojekt 2 - Matrix.IsEqualTo() #3::
+	Der Aufruf von isEqualTo() auf eine Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> mit einer Matrix <br />4x3:<br />[2, 3, 1]<br />[0, -1, 3]<br />[4, -1, 4]<br />[8, 9, 12]<br /> als Parameter sollte true zurückgeben. Deine Implementierung gibt false zurück.
+Fehler in Miniprojekt 2 - Matrix.add() #1::
+	Nach dem Aufruf von add() auf eine Matrix <br />2x2:<br />[1, 2]<br />[3, 4]<br /> mit der folgenden Matrix als Parameter: <br />2x2:<br />[2, 4]<br />[6, 8]<br /> sollte die Matrix wie folgt aussehen: <br />2x2:<br />[3, 6]<br />[9, 12]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x2:<br />[1, 2]<br />[3, 4]<br />
+Fehler in Miniprojekt 2 - Matrix.add() #2::
+	Nach dem Aufruf von add() auf eine Matrix <br />2x2:<br />[2, 3]<br />[0, -1]<br /> mit der folgenden Matrix als Parameter: <br />2x2:<br />[-1, -3]<br />[0, 2]<br /> sollte die Matrix wie folgt aussehen: <br />2x2:<br />[1, 0]<br />[0, 1]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x2:<br />[2, 3]<br />[0, -1]<br />
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #1::
+	Der Aufruf von getColumnVector(0) auf eine Matrix <br />4x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />[10, 11, 12]<br /> sollte [1, 4, 7, 10] zurückgeben. Deine Implementierung gibt null zurück.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2::
+	Der Aufruf von getColumnVector(1) auf eine Matrix <br />3x3:<br />[1, 2, 0]<br />[2, 1, -1]<br />[2, 0, 1]<br /> sollte [2, 1, 0] zurückgeben. Deine Implementierung gibt null zurück.
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #1::
+	Nach dem Aufruf von scalarMultiplication(3) auf eine Matrix <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br /> sollte die Matrix wie folgt aussehen: <br />2x3:<br />[6, 9, 6]<br />[-6, -9, -12]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br />
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #2::
+	Nach dem Aufruf von scalarMultiplication(0) auf eine Matrix <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br /> sollte die Matrix wie folgt aussehen: <br />2x3:<br />[0, 0, 0]<br />[0, 0, 0]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />2x3:<br />[2, 3, 2]<br />[-2, -3, -4]<br />
+Fehler in Miniprojekt 2 - Matrix.scalarMultiplication() #3::
+	Nach dem Aufruf von scalarMultiplication(-1) auf eine Matrix <br />3x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br /> sollte die Matrix wie folgt aussehen: <br />3x3:<br />[-1, -2, -3]<br />[-4, -5, -6]<br />[-7, -8, -9]<br />. Nach dem Aufruf deiner Implementierung sieht die Matrix so aus: <br />3x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />[7, 8, 9]<br />
+Fehler in Miniprojekt 2 - Matrix.transpose() #1::
+	Der Aufruf von transpose() auf eine Matrix <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br /> sollte die Matrix wie folgt umwandeln: <br />3x2:<br />[1, 4]<br />[2, 5]<br />[3, 6]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />2x3:<br />[1, 2, 3]<br />[4, 5, 6]<br />
+Fehler in Miniprojekt 2 - Matrix.transpose() #2::
+	Der Aufruf von transpose() auf eine Matrix <br />1x4:<br />[1, 2, 3, 4]<br /> sollte die Matrix wie folgt umwandeln: <br />4x1:<br />[1]<br />[2]<br />[3]<br />[4]<br />. Nach dem Aufruf deiner Implementierung sieht deine Matrix so aus: <br />1x4:<br />[1, 2, 3, 4]<br />
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 18, 47]. Deine Methode gibt [0, 0, 0] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

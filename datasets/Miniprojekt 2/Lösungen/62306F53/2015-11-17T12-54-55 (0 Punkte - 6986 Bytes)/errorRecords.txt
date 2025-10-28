@@ -1,0 +1,130 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 12:
+	Matrix cannot be resolved to a variable
+Compiler error in Matrix.java, line 17:
+	Matrix cannot be resolved to a variable
+Compiler error in Matrix.java, line 18:
+	The operator += is undefined for the argument type(s) int[][], Matrix
+Compiler error in Matrix.java, line 23:
+	Syntax error on token ",", ; expected
+Compiler error in Matrix.java, line 24:
+	ColumntVector cannot be resolved to a variable
+Compiler error in Matrix.java, line 25:
+	ColumntVector cannot be resolved to a variable
+Compiler error in Matrix.java, line 27:
+	ColumntVector cannot be resolved to a variable
+Compiler error in Matrix.java, line 27:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 32:
+	Syntax error on token ",", ( expected
+Compiler error in Matrix.java, line 32:
+	Syntax error, insert "; ; ) Statement" to complete BlockStatements
+Compiler error in Matrix.java, line 32:
+	Syntax error on token "<=", = expected
+Compiler error in Matrix.java, line 32:
+	The method length(int) is undefined for the type Matrix
+Compiler error in Matrix.java, line 32:
+	Duplicate local variable i
+Compiler error in Matrix.java, line 33:
+	Syntax error on token "<=", = expected
+Compiler error in Matrix.java, line 33:
+	Syntax error on token "++", ; expected
+Compiler error in Matrix.java, line 34:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 34:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 34:
+	Syntax error on token "[", Expression expected after this token
+Compiler error in Matrix.java, line 39:
+	Syntax error on token "}", delete this token
+Compiler error in Matrix.java, line 42:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Matrix.java, line 42:
+	Type mismatch: cannot convert from int to boolean
+Compiler error in Matrix.java, line 42:
+	Duplicate local variable i
+Compiler error in Matrix.java, line 42:
+	Syntax error on token "<=", = expected
+Compiler error in Matrix.java, line 42:
+	Syntax error on token "++", ; expected after this token
+Compiler error in Matrix.java, line 44:
+	values cannot be resolved to a type
+Compiler error in Matrix.java, line 8:
+	Cannot make a static reference to the non-static field Matrix.values
+Compiler error in Measurement.java, line 11:
+	Syntax error, insert "}" to complete MethodBody
+Compiler error in Measurement.java, line 12:
+	Syntax error on token ";", { expected after this token
+Compiler error in Measurement.java, line 14:
+	Syntax error on token "}", delete this token
+Compiler error in Measurement.java, line 16:
+	Syntax error, insert "}" to complete MethodBody
+Compiler error in Measurement.java, line 17:
+	values cannot be resolved to a variable
+Compiler error in Measurement.java, line 18:
+	Duplicate field Measurement.i
+Compiler error in Measurement.java, line 18:
+	Syntax error on token "<=", = expected
+Compiler error in Measurement.java, line 18:
+	Duplicate field Measurement.i
+Compiler error in Measurement.java, line 18:
+	Syntax error on token ",", ( expected
+Compiler error in Measurement.java, line 18:
+	Syntax error, insert "; ; ) Statement" to complete ForStatement
+Compiler error in Measurement.java, line 19:
+	values cannot be resolved to a variable
+Compiler error in Measurement.java, line 21:
+	Syntax error on token "}", delete this token
+Compiler error in Measurement.java, line 25:
+	Syntax error on token ",", ( expected
+Compiler error in Measurement.java, line 25:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Measurement.java, line 25:
+	Syntax error on token "<=", = expected
+Compiler error in Measurement.java, line 29:
+	Syntax error, insert "}" to complete BlockStatements
+Compiler error in Measurement.java, line 32:
+	Syntax error, insert "}" to complete MethodBody
+Compiler error in Measurement.java, line 33:
+	Syntax error on token ";", { expected after this token
+Compiler error in Measurement.java, line 33:
+	Array cannot be resolved to a type
+Compiler error in Measurement.java, line 34:
+	Syntax error on token "<=", = expected
+Compiler error in Measurement.java, line 34:
+	Syntax error on token ",", ( expected
+Compiler error in Measurement.java, line 34:
+	Duplicate field Measurement.i
+Compiler error in Measurement.java, line 34:
+	Duplicate field Measurement.i
+Compiler error in Measurement.java, line 34:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Measurement.java, line 35:
+	threshold cannot be resolved to a variable
+Compiler error in Measurement.java, line 36:
+	Syntax error on token "<=", = expected
+Compiler error in Measurement.java, line 36:
+	Cannot invoke length(int) on the array type int[]
+Compiler error in Measurement.java, line 36:
+	Duplicate local variable z
+Compiler error in Measurement.java, line 36:
+	Syntax error on token ",", ( expected
+Compiler error in Measurement.java, line 36:
+	Syntax error, insert "; ; ) Statement" to complete BlockStatements
+Compiler error in Measurement.java, line 37:
+	z cannot be resolved to a variable
+Compiler error in Measurement.java, line 39:
+	Void methods cannot return a value
+Compiler error in Measurement.java, line 41:
+	The operator <= is undefined for the argument type(s) int, null
+Compiler error in Measurement.java, line 41:
+	Syntax error on token "=", <= expected
+Compiler error in Measurement.java, line 42:
+	Void methods cannot return a value
+Compiler error in Measurement.java, line 44:
+	Syntax error on token "}", delete this token
+

@@ -1,0 +1,12 @@
+DYNAMISCHER TEST (ERGEBNIS): 80 Punkte
+Fehler in Miniprojekt 1 - Circle.Circle(Point initLocation, double initRadius)::
+	Der Konstruktor Circle.Circle(Point initLocation, double initRadius) setzt mindestens eines der Felder location und radius nicht korrekt<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.Circle(Point_initLocation,_double_initRadius).html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.containsPoint() #2::
+	Fehler in der Methode Circle.containsPoint(): Ein Kreis mit Mittelpunkt (3,500000|1,000000) und Radius (4,000000) enth�lt den Punkt (-1,000000|-1,000000) nicht, deine Methode liefert jedoch 'true' zur�ck<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.containsPoint()_#2.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.Point(double initX, double initY)::
+	Der Aufruf von Point(63,520000, -692,960000) sollte dazu f�hren, dass x=63,520000 und y=-692,960000. Nach Aufruf deines Konstruktors ist x=0,000000 und y=0,000000.<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.Point(double_initX,_double_initY).html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.setY()::
+	Die Methode Point.setY() setzt das Feld Point.y nicht korrekt. Nach dem Aufruf von Point.setY(-546,918000) hat Point.y den Wert 0,000000<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.setY().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

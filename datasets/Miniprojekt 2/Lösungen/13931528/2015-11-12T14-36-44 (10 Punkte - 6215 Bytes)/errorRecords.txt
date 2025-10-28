@@ -1,0 +1,6 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Testdurchfuehrung abgebrochen:
+	Die Testdurchfuehrung wurde (wahrscheinlich wegen einer Endlosschleife) nach 60 Minuten Laufzeit abgebrochen.
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

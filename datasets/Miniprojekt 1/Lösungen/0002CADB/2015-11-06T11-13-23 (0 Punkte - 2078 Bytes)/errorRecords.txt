@@ -1,0 +1,14 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 54:
+	Syntax error on token "{", ( expected
+Compiler error in Circle.java, line 55:
+	Syntax error, insert ") Statement" to complete BlockStatements
+Compiler error in Circle.java, line 56:
+	ture cannot be resolved to a variable
+Compiler error in Circle.java, line 57:
+	Syntax error on tokens, delete these tokens
+

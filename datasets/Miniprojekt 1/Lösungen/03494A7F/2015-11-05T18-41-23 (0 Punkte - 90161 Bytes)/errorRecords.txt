@@ -1,0 +1,406 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 10:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 10:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 13:
+	Syntax error on token "<", delete this token
+Compiler error in Circle.java, line 13:
+	Syntax error on token "Invalid Character", ( expected
+Compiler error in Circle.java, line 13:
+	Syntax error on tokens, delete these tokens
+Compiler error in Circle.java, line 13:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 13:
+	Syntax error on token "/", delete this token
+Compiler error in Circle.java, line 14:
+	Syntax error on token "type", delete this token
+Compiler error in Circle.java, line 14:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Circle.java, line 14:
+	Syntax error on token "title", delete this token
+Compiler error in Circle.java, line 14:
+	Syntax error on token "href", delete this token
+Compiler error in Circle.java, line 14:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 15:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 15:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Circle.java, line 15:
+	Syntax error on token "title", delete this token
+Compiler error in Circle.java, line 15:
+	Syntax error on token "href", delete this token
+Compiler error in Circle.java, line 16:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Circle.java, line 16:
+	Syntax error on token "href", delete this token
+Compiler error in Circle.java, line 16:
+	Syntax error on token "sizes", delete this token
+Compiler error in Circle.java, line 16:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 17:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Circle.java, line 17:
+	Syntax error on token "href", delete this token
+Compiler error in Circle.java, line 17:
+	Syntax error on token "sizes", delete this token
+Compiler error in Circle.java, line 17:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 18:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Circle.java, line 18:
+	Syntax error on token "href", delete this token
+Compiler error in Circle.java, line 18:
+	Syntax error on token "sizes", delete this token
+Compiler error in Circle.java, line 18:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 19:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 19:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Circle.java, line 19:
+	Syntax error on token "href", delete this token
+Compiler error in Circle.java, line 19:
+	Syntax error on token "sizes", delete this token
+Compiler error in Circle.java, line 20:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 20:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 20:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 24:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 24:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 24:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 25:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 25:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 25:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 26:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Circle.java, line 26:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 26:
+	Syntax error on token "href", delete this token
+Compiler error in Circle.java, line 28:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 28:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 28:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 31:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Circle.java, line 31:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 31:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 4:
+	Syntax error on tokens, delete these tokens
+Compiler error in Circle.java, line 4:
+	Syntax error on tokens, delete these tokens
+Compiler error in Circle.java, line 5:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 5:
+	Syntax error on token "class", delete this token
+Compiler error in Circle.java, line 6:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 6:
+	Syntax error on token "head", , expected after this token
+Compiler error in Circle.java, line 7:
+	Invalid character constant
+Compiler error in Circle.java, line 7:
+	Syntax error on token "meta", , expected after this token
+Compiler error in Circle.java, line 7:
+	Syntax error on token ">", invalid Expression
+Compiler error in Circle.java, line 8:
+	Syntax error on token "http", delete this token
+Compiler error in Circle.java, line 8:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 8:
+	Syntax error on token "-", ( expected
+Compiler error in Circle.java, line 8:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 9:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 9:
+	Syntax error on token "http", delete this token
+Compiler error in Circle.java, line 9:
+	Syntax error on token "content", delete this token
+Compiler error in Circle.java, line 9:
+	Syntax error on token "-", ( expected
+Compiler error in Point.java, line 10:
+	Syntax error on token "content", delete this token
+Compiler error in Point.java, line 10:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 13:
+	Syntax error on token "/", delete this token
+Compiler error in Point.java, line 13:
+	Syntax error on token "Invalid Character", ( expected
+Compiler error in Point.java, line 13:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 13:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 13:
+	Syntax error on token "<", delete this token
+Compiler error in Point.java, line 14:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Point.java, line 14:
+	Syntax error on token "href", delete this token
+Compiler error in Point.java, line 14:
+	Syntax error on token "type", delete this token
+Compiler error in Point.java, line 14:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 14:
+	Syntax error on token "title", delete this token
+Compiler error in Point.java, line 15:
+	Syntax error on token "href", delete this token
+Compiler error in Point.java, line 15:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Point.java, line 15:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 15:
+	Syntax error on token "title", delete this token
+Compiler error in Point.java, line 16:
+	Syntax error on token "sizes", delete this token
+Compiler error in Point.java, line 16:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Point.java, line 16:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 16:
+	Syntax error on token "href", delete this token
+Compiler error in Point.java, line 17:
+	Syntax error on token "sizes", delete this token
+Compiler error in Point.java, line 17:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Point.java, line 17:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 17:
+	Syntax error on token "href", delete this token
+Compiler error in Point.java, line 18:
+	Syntax error on token "sizes", delete this token
+Compiler error in Point.java, line 18:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Point.java, line 18:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 18:
+	Syntax error on token "href", delete this token
+Compiler error in Point.java, line 19:
+	Syntax error on token "sizes", delete this token
+Compiler error in Point.java, line 19:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Point.java, line 19:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 19:
+	Syntax error on token "href", delete this token
+Compiler error in Point.java, line 20:
+	Syntax error on token "content", delete this token
+Compiler error in Point.java, line 20:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 20:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Point.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Point.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Point.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Point.java, line 22:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 22:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 22:
+	Syntax error on token "name", delete this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Point.java, line 23:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 23:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 23:
+	Syntax error on token "property", delete this token
+Compiler error in Point.java, line 24:
+	Syntax error on token "content", delete this token
+Compiler error in Point.java, line 24:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 24:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 25:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 25:
+	Syntax error on token "content", delete this token
+Compiler error in Point.java, line 25:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 26:
+	Syntax error on token "href", delete this token
+Compiler error in Point.java, line 26:
+	Syntax error on token "link", ( expected after this token
+Compiler error in Point.java, line 26:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 28:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 28:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 28:
+	Syntax error on token "content", delete this token
+Compiler error in Point.java, line 31:
+	Syntax error on token "content", delete this token
+Compiler error in Point.java, line 31:
+	Syntax error on token "meta", ( expected after this token
+Compiler error in Point.java, line 31:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 4:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 4:
+	Syntax error on tokens, delete these tokens
+Compiler error in Point.java, line 5:
+	Syntax error on token "class", delete this token
+Compiler error in Point.java, line 5:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 6:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 6:
+	Syntax error on token "head", , expected after this token
+Compiler error in Point.java, line 7:
+	Syntax error on token "meta", , expected after this token
+Compiler error in Point.java, line 7:
+	Syntax error on token ">", invalid Expression
+Compiler error in Point.java, line 7:
+	Invalid character constant
+Compiler error in Point.java, line 8:
+	Syntax error on token "-", ( expected
+Compiler error in Point.java, line 8:
+	Syntax error on token "http", delete this token
+Compiler error in Point.java, line 8:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 8:
+	Syntax error on token "content", delete this token
+Compiler error in Point.java, line 9:
+	Syntax error on token "-", ( expected
+Compiler error in Point.java, line 9:
+	Syntax error on token "http", delete this token
+Compiler error in Point.java, line 9:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 9:
+	Syntax error on token "content", delete this token
+

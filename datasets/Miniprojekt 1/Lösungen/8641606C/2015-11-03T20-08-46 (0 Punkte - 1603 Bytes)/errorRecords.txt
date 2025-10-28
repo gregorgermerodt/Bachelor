@@ -1,0 +1,32 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 21:
+	initX cannot be resolved to a variable
+Compiler error in Point.java, line 30:
+	initY cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	initY cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	newX cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	initx cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	newY cannot be resolved to a variable
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 21:
+	initX cannot be resolved to a variable
+Compiler error in Point.java, line 30:
+	initY cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	newX cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	initx cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	newY cannot be resolved to a variable
+Compiler error in Point.java, line 39:
+	initY cannot be resolved to a variable
+

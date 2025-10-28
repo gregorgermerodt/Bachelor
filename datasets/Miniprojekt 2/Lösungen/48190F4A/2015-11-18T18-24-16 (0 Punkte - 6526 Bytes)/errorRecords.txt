@@ -1,0 +1,20 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Measurement.java, line 37:
+	Syntax error on token "new", invalid VariableDeclaratorId
+Compiler error in Measurement.java, line 38:
+	Syntax error on token "new", invalid Expression
+Compiler error in Measurement.java, line 40:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Measurement.java, line 40:
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+Compiler error in Measurement.java, line 40:
+	Syntax error on token "new", invalid Expression
+Compiler error in Measurement.java, line 41:
+	Syntax error, insert "else Statement" to complete BlockStatements
+Compiler error in Measurement.java, line 41:
+	Syntax error, insert "}" to complete Block
+

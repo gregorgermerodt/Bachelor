@@ -1,0 +1,56 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 100:
+	The method isEqualTo(Matrix) is undefined for the type Matrix
+Compiler error in Matrix.java, line 106:
+	The method transpose() is undefined for the type Matrix
+Compiler error in Matrix.java, line 112:
+	The method print() is undefined for the type Matrix
+Compiler error in Matrix.java, line 113:
+	Syntax error, insert "}" to complete ClassBody
+Compiler error in Matrix.java, line 18:
+	The method print() is undefined for the type Matrix
+Compiler error in Matrix.java, line 23:
+	The constructor Matrix(int[][]) is undefined
+Compiler error in Matrix.java, line 33:
+	The method print() is undefined for the type Matrix
+Compiler error in Matrix.java, line 40:
+	The method scalarMultiplication(int) is undefined for the type Matrix
+Compiler error in Matrix.java, line 47:
+	The method print() is undefined for the type Matrix
+Compiler error in Matrix.java, line 53:
+	The method add(Matrix) is undefined for the type Matrix
+Compiler error in Matrix.java, line 60:
+	The method print() is undefined for the type Matrix
+Compiler error in Matrix.java, line 66:
+	The method getColumnVector(int) is undefined for the type Matrix
+Compiler error in Matrix.java, line 77:
+	The method isEqualTo(Matrix) is undefined for the type Matrix
+Compiler error in Matrix.java, line 8:
+	The constructor Matrix(int[][]) is undefined
+Compiler error in Matrix.java, line 82:
+	The constructor Matrix(int[][]) is undefined
+Compiler error in Matrix.java, line 92:
+	The method print() is undefined for the type Matrix
+Compiler error in Measurement.java, line 12:
+	The method printData() is undefined for the type Measurement
+Compiler error in Measurement.java, line 16:
+	The method addValue(int) is undefined for the type Measurement
+Compiler error in Measurement.java, line 20:
+	The method printData() is undefined for the type Measurement
+Compiler error in Measurement.java, line 24:
+	The method addValues(int[]) is undefined for the type Measurement
+Compiler error in Measurement.java, line 28:
+	The method printData() is undefined for the type Measurement
+Compiler error in Measurement.java, line 32:
+	The method getMinimumValue() is undefined for the type Measurement
+Compiler error in Measurement.java, line 39:
+	The method getValuesAboveThreshold(int) is undefined for the type Measurement
+Compiler error in Measurement.java, line 47:
+	The method getValuesAboveThreshold(int) is undefined for the type Measurement
+Compiler error in Measurement.java, line 52:
+	Syntax error, insert "}" to complete ClassBody
+

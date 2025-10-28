@@ -1,0 +1,171 @@
+﻿<checkerrules>
+	<rule type="absence" points="0">
+		<query>from x : V{VariableDeclarationFragment} with x.name=capitalizeFirst(x.name) report x.name as "name" end</query>
+		<feedback>Hinweis (ohne Punktabzug): Du verwendest Variablennamen, die mit einem Großbuchstaben beginnen. Das ist möglich, aber es entspricht nicht dem üblichen Programmierstil für Java.</feedback>
+	</rule>
+	<rule type="absence" points="0">
+		<query>from x : V{MethodDeclaration} with
+				x.name=capitalizeFirst(x.name) and
+				x.constructor="false"
+			report x.name as "name" end</query>
+		<feedback>Hinweis (ohne Punktabzug): Du verwendest Methodennamen, die mit einem Großbuchstaben beginnen. Das ist möglich, aber es entspricht nicht dem üblichen Programmierstil für Java.</feedback>
+	</rule>
+	<rule type="absence" points="0">
+		<query>from x : V{TypeDeclaration} with not (x.name=capitalizeFirst(x.name)) report x.name as "name" end</query>
+		<feedback>Hinweis (ohne Punktabzug): Du verwendest Klassennamen, die nicht mit einem Großbuchstaben beginnen. Das ist möglich, aber es entspricht nicht dem üblichen Programmierstil für Java.</feedback>
+	</rule>
+
+	<rule type="absence" points="1">
+		<query>from p : V{PackageDeclaration}
+			report 0 end</query>
+		<feedback prefix="Paketdefinition">Deine Lösung beinhaltet eine package-Angabe. Bitte entferne diese.</feedback>
+	</rule>
+	
+	<!-- Klasse Point -->
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Point" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public Point(double initX, double initY)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Der Konstruktor "public Point(double initX, double initY)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Point" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public double getX()")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public double getX()" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Point" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public void setX(double newX)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public void setX(double newX)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>	
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Point" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public double getY()")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public double getY()" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Point" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public void setY(double newY)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public void setY(double newY)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+
+		<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Point" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public double getDistance(Point p)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public double getDistance(Point p)" in der Klasse "Point" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+
+	<!-- Klasse Circle -->
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public Circle(Point initLocation, double initRadius)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Der Konstruktor "public Circle(Point initLocation, double initRadius)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public double getRadius()")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public double getRadius()" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public void setRadius(double newRadius)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public void setRadius(double newRadius)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public Point getLocation()")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public Point getLocation()" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public void setLocation(Point newLocation)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public void setLocation(Point newLocation)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public double getCircumference()")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public double getCircumference()" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public double getArea()")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public double getArea()" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>	
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public double getDiameter()")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public double getDiameter()" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>
+	
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public boolean containsPoint(Point point)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public boolean containsPoint(Point point)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>	
+
+	<rule type="presence" points="1">
+		<query>from t : V{TypeDeclaration}, m : V{MethodDeclaration} with
+				t.name="Circle" and
+				t -->{TypeDeclarationBodyDeclarations2} m and
+				hasSignature(m, "public static Circle fromPoints(Point center, Point p)")
+			report 0 end</query>
+		<feedback prefix="Signaturcheck">Die Methode "public static Circle fromPoints(Point center, Point p)" in der Klasse "Circle" fehlt. Hast du die vorgegebene Methodensignatur veraendert?</feedback>
+	</rule>	
+</checkerrules>

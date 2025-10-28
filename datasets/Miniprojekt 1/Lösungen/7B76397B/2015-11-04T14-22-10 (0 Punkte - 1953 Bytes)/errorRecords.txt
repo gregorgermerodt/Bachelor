@@ -1,0 +1,46 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Circle.java, line 15:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Circle.java, line 16:
+	Duplicate local variable initRadius
+Compiler error in Circle.java, line 16:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Circle.java, line 16:
+	Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+Compiler error in Circle.java, line 24:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Circle.java, line 32:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Circle.java, line 52:
+	Syntax error, insert ";" to complete Statement
+Compiler error in Point.java, line 15:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 15:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 16:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 16:
+	Duplicate local variable initY
+Compiler error in Point.java, line 24:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 24:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 24:
+	Duplicate local variable newX
+Compiler error in Point.java, line 32:
+	Syntax error, insert ";" to complete BlockStatements
+Compiler error in Point.java, line 32:
+	Duplicate local variable newY
+Compiler error in Point.java, line 32:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 36:
+	math cannot be resolved
+Compiler error in Point.java, line 36:
+	Syntax error, insert ")" to complete ArgumentList
+Compiler error in Point.java, line 36:
+	Syntax error on token ")", delete this token
+

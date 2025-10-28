@@ -1,0 +1,10 @@
+DYNAMISCHER TEST (ERGEBNIS): 90 Punkte
+Fehler in Miniprojekt 2 - Matrix-Konstruktor::
+	Der Konstruktor der Klasse Matrix sollte das als Parameter übergeben Array dem Feld values zuweisen. Nach dem Aufruf deiner Implementierung verweist values jedoch nicht auf dasselbe Array, wie initialValues.
+Fehler in Miniprojekt 2 - Matrix.getColumnVector() #2: java.lang.ArrayIndexOutOfBoundsException: 3:
+	Du hast in der Klasse 'Matrix' in der Methode 'getColumnVector' in Zeile 38 versucht, einen Array-Index zu erreichen, den es nicht gibt. Bei einem n Elemente grossen Array ist der kleinste moegliche Index 0 und der groesste moegliche Index n-1.
+Fehler in Miniprojekt 2 - Measurement.getValuesAboveThreshold() #1::
+	Für ein Measurement-Objekt mit den Messwerten [-4, 12, 47, 18, 1] sollte getValuesAboveThreshold(1) die folgenden Werte zurückgeben: [12, 18, 47]. Deine Methode gibt [0, 0, 18] zurück. (Die Reihenfolge der Elemente spielt keine Rolle.)
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+

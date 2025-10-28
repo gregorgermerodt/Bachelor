@@ -1,0 +1,22 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 57:
+	Syntax error on token "Invalid Character", ; expected
+Compiler error in Matrix.java, line 57:
+	nge cannot be resolved to a variable
+Compiler error in Matrix.java, line 62:
+	Syntax error on token "Invalid Character", delete this token
+Compiler error in Matrix.java, line 62:
+	l cannot be resolved to a type
+Compiler error in Matrix.java, line 86:
+	The primitive type boolean of l does not have a field nge
+Compiler error in Matrix.java, line 86:
+	Syntax error on token "Invalid Character", . expected
+Compiler error in Measurement.java, line 40:
+	Syntax error on tokens, delete these tokens
+Compiler error in Measurement.java, line 43:
+	Syntax error on tokens, delete these tokens
+

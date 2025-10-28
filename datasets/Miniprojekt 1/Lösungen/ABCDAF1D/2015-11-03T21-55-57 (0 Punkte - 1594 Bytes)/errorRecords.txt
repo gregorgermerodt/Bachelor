@@ -1,0 +1,22 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Point.java, line 27:
+	Cannot make a static reference to the non-static field Point.x
+Compiler error in Point.java, line 36:
+	Cannot make a static reference to the non-static field Point.y
+Compiler error in Point.java, line 42:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Point.java, line 42:
+	Syntax error on token ")", [ expected after this token
+Compiler error in Point.java, line 42:
+	y2 cannot be resolved to a variable
+Compiler error in Point.java, line 42:
+	y1 cannot be resolved to a variable
+Compiler error in Point.java, line 42:
+	Syntax error on token "double", delete this token
+Compiler error in Point.java, line 43:
+	Type mismatch: cannot convert from Point to double
+

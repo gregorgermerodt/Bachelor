@@ -1,0 +1,30 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 35:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 35:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 35:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 35:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 36:
+	lenght cannot be resolved or is not a field
+Compiler error in Matrix.java, line 36:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 37:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 37:
+	j cannot be resolved to a variable
+Compiler error in Matrix.java, line 39:
+	Syntax error on token "}", { expected after this token
+Compiler error in Matrix.java, line 40:
+	Syntax error on token(s), misplaced construct(s)
+Compiler error in Matrix.java, line 40:
+	Syntax error on token "}", delete this token
+Compiler error in Matrix.java, line 43:
+	Syntax error on token "void", @ expected
+

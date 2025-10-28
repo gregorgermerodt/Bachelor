@@ -1,0 +1,66 @@
+DYNAMISCHER TEST (ERGEBNIS): 0 Punkte
+Test konnte nicht gestartet werden:
+	Der Test konnte nicht gestartet werden. Liegen im statischen Test Compilerfehler vor? Wurden alle Klassen richtig benannt und (sofern vorgegeben) im richtigen Package abgelegt?
+
+STATISCHER TEST (ERGEBNIS): 0 Punkte
+Compiler error in Matrix.java, line 12:
+	Cannot invoke length() on the array type int[][]
+Compiler error in Matrix.java, line 13:
+	Cannot invoke length() on the array type int[]
+Compiler error in Matrix.java, line 18:
+	Cannot invoke length() on the array type int[][]
+Compiler error in Matrix.java, line 19:
+	Cannot invoke length() on the array type int[]
+Compiler error in Matrix.java, line 24:
+	Variable must provide either dimension expressions or an array initializer
+Compiler error in Matrix.java, line 25:
+	Cannot invoke length() on the array type int[][]
+Compiler error in Matrix.java, line 31:
+	length cannot be resolved or is not a field
+Compiler error in Matrix.java, line 31:
+	Cannot invoke length() on the array type int[][]
+Compiler error in Matrix.java, line 32:
+	Cannot invoke length() on the array type int[][]
+Compiler error in Matrix.java, line 33:
+	Cannot invoke length() on the array type int[]
+Compiler error in Matrix.java, line 33:
+	The type of the expression must be an array type but it resolved to Matrix
+Compiler error in Matrix.java, line 34:
+	Cannot invoke length() on the array type int[]
+Compiler error in Matrix.java, line 34:
+	The type of the expression must be an array type but it resolved to Matrix
+Compiler error in Matrix.java, line 35:
+	Cannot invoke length() on the array type int[]
+Compiler error in Matrix.java, line 43:
+	Cannot invoke length() on the array type int[][]
+Compiler error in Matrix.java, line 43:
+	Cannot invoke length() on the array type int[]
+Compiler error in Matrix.java, line 44:
+	Cannot invoke length() on the array type int[][]
+Compiler error in Matrix.java, line 45:
+	Cannot invoke length() on the array type int[]
+Compiler error in Matrix.java, line 47:
+	The method Matrix(int[][]) is undefined for the type Matrix
+Compiler error in Matrix.java, line 8:
+	initValues cannot be resolved to a variable
+Compiler error in Matrix.java, line 8:
+	Cannot make a static reference to the non-static field Matrix.values
+Compiler error in Measurement.java, line 13:
+	Cannot invoke length() on the array type int[]
+Compiler error in Measurement.java, line 18:
+	Cannot invoke length() on the array type int[]
+Compiler error in Measurement.java, line 19:
+	Cannot invoke length() on the array type int[]
+Compiler error in Measurement.java, line 25:
+	Cannot invoke length() on the array type int[]
+Compiler error in Measurement.java, line 33:
+	Variable must provide either dimension expressions or an array initializer
+Compiler error in Measurement.java, line 34:
+	Cannot invoke length() on the array type int[]
+Compiler error in Measurement.java, line 35:
+	treshold cannot be resolved to a variable
+Compiler error in Measurement.java, line 36:
+	Cannot invoke length() on the array type int[]
+Compiler error in Measurement.java, line 8:
+	Variable must provide either dimension expressions or an array initializer
+

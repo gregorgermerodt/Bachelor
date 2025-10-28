@@ -1,0 +1,12 @@
+DYNAMISCHER TEST (ERGEBNIS): 80 Punkte
+Fehler in Miniprojekt 1 - Circle.fromPoints() #1: java.lang.NumberFormatException: For input string: "�":
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.fromPoints() #2: java.lang.NumberFormatException: For input string: "�":
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.fromPoints()_#2.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Circle.getLocation()::
+	Die Methode Circle.getLocation() liefert einen fehlerhaften Wert zur�ck (Point@6aa86249)<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Circle.getLocation().html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+Fehler in Miniprojekt 1 - Point.getDistance() #1: java.lang.NumberFormatException: For input string: "�":
+	<p><a href="/jack2/resourceProvider?id=#---#trace-Miniprojekt_1_-_Point.getDistance()_#1.html#---#">Du kannst dir einen Trace des Testfalles anzeigen lassen.</a></p>
+
+STATISCHER TEST (ERGEBNIS): 100 Punkte
+
